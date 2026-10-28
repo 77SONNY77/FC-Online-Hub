@@ -1,0 +1,39 @@
+import { describe, expect, it } from 'vitest';
+import { validateMetadata, hash } from '@/domain/players/metadata';
+import { formatBP, priceFreshness, validatePrices } from '@/domain/players/price';
+import { combineStatuses, conditionHash, resolvePriceRank, type RankCondition } from '@/domain/rewards/resolution';
+import { createPlayerService } from '@/application/players';
+const seasons = [{ seasonId: 999, className: 'SYNTHETIC TEST ONLY', seasonImg: 'https://ssl.nexon.com/test.png' }];
+const players = [{ id: 999000001, name: 'TEST PLAYER' }];
+const parse = (p: unknown = players, s: unknown = seasons) => validateMetadata(JSON.stringify(p), JSON.stringify(s));
+const price = { sourceUrl: 'https://fconline.nexon.com/datacenter', observedAt: '2026-09-19T03:00:00.000Z', referenceAt: null, notes: 'SYNTHETIC TEST ONLY', rows: [{ spid: '999000001', name: 'TEST PLAYER', enhancement: 8, price: '123456789012345678901234567890', ovr: null, position: null }] };
+describe('official player metadata contracts', () => {
+  it('maps the documented 3+6 SPID and official image template', () => { expect(parse().players[0]).toMatchObject({ spid: '999000001', pid: '000001', seasonId: 999, imageUrl: 'https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersAction/p999000001.png' }); });
+  it('rejects duplicate SPID', () => expect(() => parse([...players, ...players])).toThrow('Duplicate SPID'));
+  it('rejects missing names and malformed SPIDs', () => { expect(() => parse([{ id: 999000001, name: '' }])).toThrow(); expect(() => parse([{ id: 1, name: 'X' }])).toThrow(); });
+  it('rejects missing/duplicate seasons and untrusted images', () => { expect(() => parse(players, [])).toThrow(); expect(() => parse(players, [...seasons, ...seasons])).toThrow(); expect(() => parse([{ id: 888000001, name: 'X' }])).toThrow('Invalid season'); expect(() => parse(players, [{ ...seasons[0], seasonImg: 'https://example.com/img.png' }])).toThrow(); });
+});
+describe('price precision and observation safety', () => {
+  it('keeps 30-digit BP exact and formats with BigInt', () => { expect(validatePrices(price).rows[0].price).toBe(price.rows[0].price); expect(formatBP(price.rows[0].price)).toBe('123,456,789,012,345,678,901,234,567,890 BP'); });
+  it.each(['0', '-1', '1.1', '1e10', '9000000000000000000000000000000'])('rejects invalid price %s', value => expect(() => validatePrices({ ...price, rows: [{ ...price.rows[0], price: value }] })).toThrow());
+  it('rejects fabricated reference times and duplicate variants', () => { expect(() => validatePrices({ ...price, referenceAt: price.observedAt })).toThrow('reference time'); expect(() => validatePrices({ ...price, rows: [...price.rows, ...price.rows] })).toThrow('Duplicate'); });
+  it('allows different enhancement observations without merging prices', () => expect(validatePrices({ ...price, rows: [...price.rows, { ...price.rows[0], enhancement: 9, price: '100' }] }).rows).toHaveLength(2));
+  it('does not treat fetch time as freshness', () => { const now = Date.parse('2026-09-19T04:00:00Z'); expect(priceFreshness(null, price.observedAt, now)).toBe('UNKNOWN'); expect(priceFreshness('2026-09-19T02:00:00Z', price.observedAt, now)).toBe('FRESH'); expect(priceFreshness('2026-09-18T02:00:00Z', price.observedAt, now)).toBe('STALE'); expect(priceFreshness('2026-09-19T05:00:00Z', price.observedAt, now)).toBe('UNKNOWN'); });
+});
+const condition: RankCondition = { poolId: 'TEST_POOL', rawHash: hash('SYNTHETIC TEST ONLY'), seasonId: 999, enhancements: [8], minOvr: 118, ovrBasis: 'ENHANCED', excludeUnavailable: true, top: 2 };
+const snapshot = () => ({ id: 'TEST_SNAPSHOT', poolId: condition.poolId, referenceDate: '2026-09-19', windowStart: '2026-09-18T15:00:00.000Z', windowEnd: '2026-09-18T16:00:00.000Z', conditionHash: conditionHash(condition), complete: true, candidateCount: 3, tiePolicy: 'NO_TIES', sourceUrl: 'https://fconline.nexon.com/datacenter', datasetVersion: 'SYNTHETIC_TEST_ONLY', verified: true, entries: [1, 2, 3].map(rank => ({ rank, spid: `99900000${rank}`, name: `TEST ${rank}`, seasonId: 999, enhancement: 8, price: String(400 - rank * 100), referenceAt: '2026-09-18T15:30:00.000Z', observedAt: '2026-09-18T15:45:00.000Z', available: true, ovr: 120, verified: true })) });
+describe('strict historical rank resolution', () => {
+  it('resolves TOP 2 from a complete verified three-player snapshot', () => { const r = resolvePriceRank(condition, '2026-09-19', snapshot()); expect(r.status).toBe('RESOLVED'); expect(r.entries.map(e => e.spid)).toEqual(['999000001', '999000002']); });
+  it('keeps absent snapshots unresolved', () => expect(resolvePriceRank(condition, '2026-09-19', null).reason).toBe('MISSING_REFERENCE_SNAPSHOT'));
+  it('rejects wrong day and wrong hour', () => { expect(resolvePriceRank(condition, '2026-09-20', snapshot()).entries).toEqual([]); const s = snapshot(); s.entries[0].referenceAt = '2026-09-19T06:00:00.000Z'; expect(resolvePriceRank(condition, '2026-09-19', s).entries).toEqual([]); });
+  it('rejects wrong enhancement/season/OVR/availability', () => { for (const change of [{ enhancement: 9 }, { seasonId: 888 }, { ovr: 100 }, { available: false }]) { const s = snapshot(); Object.assign(s.entries[0], change); expect(resolvePriceRank(condition, '2026-09-19', s).entries).toEqual([]); } });
+  it('rejects missing ranks, incomplete universe and duplicate variants', () => { for (const change of [(s: ReturnType<typeof snapshot>) => s.entries.pop(), (s: ReturnType<typeof snapshot>) => s.entries[1].rank = 4, (s: ReturnType<typeof snapshot>) => s.entries[1].spid = s.entries[0].spid, (s: ReturnType<typeof snapshot>) => s.complete = false]) { const s = snapshot(); change(s); expect(resolvePriceRank(condition, '2026-09-19', s).entries).toEqual([]); } });
+  it('rejects ties, unsorted prices, mixed timestamps and unverified sources', () => { for (const change of [(s: ReturnType<typeof snapshot>) => s.entries[1].price = '300', (s: ReturnType<typeof snapshot>) => s.entries[1].price = '999', (s: ReturnType<typeof snapshot>) => s.entries[1].referenceAt = '2026-09-18T15:40:00.000Z', (s: ReturnType<typeof snapshot>) => s.verified = false, (s: ReturnType<typeof snapshot>) => s.sourceUrl = 'https://fcdetox.com/']) { const s = snapshot(); change(s); expect(resolvePriceRank(condition, '2026-09-19', s).entries).toEqual([]); } });
+  it('rejects stale condition hash and unknown OVR basis', () => { const c = { ...condition, ovrBasis: 'UNKNOWN' as const }; const s = snapshot(); expect(resolvePriceRank(c, '2026-09-19', s).entries).toEqual([]); s.conditionHash = conditionHash(c); expect(resolvePriceRank(c, '2026-09-19', s).reason).toBe('OVR_BASIS_NOT_VERIFIED'); });
+  it('propagates partially resolved children without calling them resolved', () => { expect(combineStatuses(['RESOLVED', 'UNRESOLVED'])).toBe('PARTIALLY_RESOLVED'); expect(combineStatuses(['PARTIALLY_RESOLVED', 'UNRESOLVED'])).toBe('PARTIALLY_RESOLVED'); expect(combineStatuses(['RESOLVED'])).toBe('RESOLVED'); });
+});
+describe('player application input and errors', () => {
+  const service = createPlayerService({ list: async () => { throw new Error('PRIVATE DATABASE DETAILS'); }, detail: async () => null, history: async () => null });
+  it('validates pagination, search length, season and enhancement', async () => { for (const input of [{ page: 0 }, { page: 'nan' }, { q: 'x'.repeat(81) }, { season: '9999' }, { enhancement: 14 }]) await expect(service.list(input)).rejects.toMatchObject({ status: 400 }); });
+  it('sanitizes errors and distinguishes unknown player', async () => { await expect(service.list({})).rejects.toMatchObject({ status: 503, message: 'DATA_UNAVAILABLE' }); await expect(service.detail('999000001')).rejects.toMatchObject({ status: 404 }); await expect(service.detail('bad')).rejects.toMatchObject({ status: 400 }); });
+});

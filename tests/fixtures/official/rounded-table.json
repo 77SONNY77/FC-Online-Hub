@@ -1,0 +1,5 @@
+{
+  "kind": "SYNTHETIC_TEST_ONLY",
+  "notes": "반올림 허용 정책 테스트용. 실제 공식 상품이나 확률표가 아니며 import 대상이 아닙니다.",
+  "probabilities": ["33.33%", "33.33%", "33.33%"]
+}

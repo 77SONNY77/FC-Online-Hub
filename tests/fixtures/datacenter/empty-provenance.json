@@ -1,0 +1,14 @@
+{
+  "sourceUrl": "https://fconline.nexon.com/datacenter/PlayerList",
+  "method": "POST",
+  "acquisitionDateKST": "2026-09-21",
+  "query": {
+    "strSeason": ",877,",
+    "n1Strong": "1",
+    "n4OvrMin": "0",
+    "n4OvrMax": "1"
+  },
+  "statusCode": 200,
+  "sha256": "b746bc5847e8838dac959c9fbefd05af17754297589f0f69aa156e57ef064903",
+  "meaning": "Actual empty search response; not a security shell"
+}

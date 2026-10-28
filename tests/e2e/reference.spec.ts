@@ -1,0 +1,20 @@
+import {test,expect} from '@playwright/test';
+test('real product → UC 750 pack → rank → dated snapshot status without current-price fallback',async({page})=>{
+ await page.goto('/shop');
+ await page.getByRole('link',{name:/확정 에디션/}).click();
+ const link=page.locator('a[href="/items/official-item-24987-v1/probabilities"]').first();
+ await expect(link).toBeVisible();await link.click();
+ await expect(page.getByRole('heading',{name:'UC Top Price 750 (1~7강)',exact:true})).toBeVisible();
+ await page.getByRole('link',{name:'개봉일 0~1시 사이 기준가 TOP 1 ↗',exact:true}).click();
+ await expect(page.getByRole('heading',{name:'TOP 1 · 기준 시각 선수 구성',exact:true})).toBeVisible();
+ await expect(page.getByText('선수 구성 미확정',{exact:true})).toBeVisible();
+ await expect(page.getByText('NEEDS_VERIFICATION',{exact:true})).toBeVisible();
+ await expect(page.getByRole('link',{name:'공식 확률 조건 ↗'})).toHaveAttribute('href','https://iteminfo.nexon.com/probability/fco?sn=24987');
+ await expect(page.getByRole('button',{name:/개봉|열기/})).toHaveCount(0);
+ await page.getByLabel('기준일',{exact:true}).fill('2026-09-20');await page.getByRole('button',{name:'확인',exact:true}).click();
+ await expect(page.getByText('관측 창:',{exact:false})).toContainText('00:00');
+ await expect(page.getByText('UNAVAILABLE',{exact:true})).toBeVisible();
+ await expect(page.locator('main a[href^="/players/"]')).toHaveCount(0);
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+ await page.screenshot({path:`test-results/reference-${test.info().project.name}.png`,fullPage:true});
+});

@@ -1,0 +1,5736 @@
+[
+  {
+    "classId": 100,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 100,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 101,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 101,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 110,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 110,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 111,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 111,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 113,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 113,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 114,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 114,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 201,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 201,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 50,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 201,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 51,
+        "ovrMax": 75,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 201,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 76,
+        "ovrMax": 82,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 201,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 83,
+        "ovrMax": 88,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 201,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 89,
+        "ovrMax": 100,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 201,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 101,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 202,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 202,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 206,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 206,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 50,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 206,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 51,
+        "ovrMax": 75,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 206,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 76,
+        "ovrMax": 79,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 206,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 80,
+        "ovrMax": 82,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 206,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 83,
+        "ovrMax": 88,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 206,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 89,
+        "ovrMax": 100,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 206,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 101,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 242,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 4,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 5,
+        "ovrMax": 9,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 10,
+        "ovrMax": 14,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 15,
+        "ovrMax": 19,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 20,
+        "ovrMax": 24,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 25,
+        "ovrMax": 29,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 30,
+        "ovrMax": 34,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 35,
+        "ovrMax": 39,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 40,
+        "ovrMax": 44,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 45,
+        "ovrMax": 49,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 50,
+        "ovrMax": 54,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 55,
+        "ovrMax": 59,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 60,
+        "ovrMax": 64,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 65,
+        "ovrMax": 69,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 70,
+        "ovrMax": 74,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 75,
+        "ovrMax": 79,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 80,
+        "ovrMax": 84,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 85,
+        "ovrMax": 89,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 90,
+        "ovrMax": 94,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 95,
+        "ovrMax": 99,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 100,
+        "ovrMax": 104,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 105,
+        "ovrMax": 109,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 110,
+        "ovrMax": 114,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 115,
+        "ovrMax": 119,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 120,
+        "ovrMax": 124,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 125,
+        "ovrMax": 129,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 130,
+        "ovrMax": 134,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 135,
+        "ovrMax": 139,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 140,
+        "ovrMax": 144,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 145,
+        "ovrMax": 149,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 150,
+        "ovrMax": 154,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 155,
+        "ovrMax": 159,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 160,
+        "ovrMax": 164,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 165,
+        "ovrMax": 169,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 170,
+        "ovrMax": 174,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 175,
+        "ovrMax": 179,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 180,
+        "ovrMax": 184,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 185,
+        "ovrMax": 189,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 190,
+        "ovrMax": 194,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 195,
+        "ovrMax": 199,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 242,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 200,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 247,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 247,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 249,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 249,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 250,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 250,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 252,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 252,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 254,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 254,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 257,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 257,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 258,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 258,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 259,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 259,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 261,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 261,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 262,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 262,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 264,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 264,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 265,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 265,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 267,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 267,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 268,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 268,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 270,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 270,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 272,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 272,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 274,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 274,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 276,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 276,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 277,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 277,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 278,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 278,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 279,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 279,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 281,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 281,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 283,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 283,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 284,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 284,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 287,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 287,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 289,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 289,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 290,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 290,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 293,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 293,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 294,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 294,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 295,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 295,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 297,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 297,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 298,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 298,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 510,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 510,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 512,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 512,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 514,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 514,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 516,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 516,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 518,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 518,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 596,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 596,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 801,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 801,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 802,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 802,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 804,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 804,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 805,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 805,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 806,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 806,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 807,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 807,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 808,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 808,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 811,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 811,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 812,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 812,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 813,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 813,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 814,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 814,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 818,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 818,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 820,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 820,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 821,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 821,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 825,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 825,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 827,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 827,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 828,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 828,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 829,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 829,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 830,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 830,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 831,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 831,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 832,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 832,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 835,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 835,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 836,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 836,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 839,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 839,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 840,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 840,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 844,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 844,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 845,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 845,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 846,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 846,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 849,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 849,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 850,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 850,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 852,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 852,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 853,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 853,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 854,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 854,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 855,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 855,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 858,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 858,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 861,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 861,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 862,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 862,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 864,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 864,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 867,
+    "runId": "cmuths4lq0000tyq2oq58xak6",
+    "queries": [
+      {
+        "seasonId": 867,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 868,
+    "runId": "cmuq7x9v20000ty3bpygcs63q",
+    "queries": [
+      {
+        "seasonId": 868,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 866,
+    "runId": "cmuq7x9v20000ty3bpygcs63q",
+    "queries": [
+      {
+        "seasonId": 866,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 879,
+    "runId": "cmuq7sui50000tycgjdod3siq",
+    "queries": [
+      {
+        "seasonId": 879,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 877,
+    "runId": "cmuq7sui50000tycgjdod3siq",
+    "queries": [
+      {
+        "seasonId": 877,
+        "subdivision": "LEGACY",
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 207,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 207,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 50,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 207,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 51,
+        "ovrMax": 75,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 207,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 76,
+        "ovrMax": 82,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 207,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 83,
+        "ovrMax": 88,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 207,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 89,
+        "ovrMax": 100,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 207,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 101,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 210,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 210,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 50,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 210,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 51,
+        "ovrMax": 75,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 210,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 76,
+        "ovrMax": 82,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 210,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 83,
+        "ovrMax": 88,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 210,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 89,
+        "ovrMax": 100,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 210,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 101,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 211,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 211,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 212,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 212,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 213,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 213,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 214,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 214,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 50,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 214,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 51,
+        "ovrMax": 75,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 214,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 76,
+        "ovrMax": 88,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 214,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 89,
+        "ovrMax": 100,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 214,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 101,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 215,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 215,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 216,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 216,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 50,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 216,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 51,
+        "ovrMax": 75,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 216,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 76,
+        "ovrMax": 88,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 216,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 89,
+        "ovrMax": 94,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 216,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 95,
+        "ovrMax": 100,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 216,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 101,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 217,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 217,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 50,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 217,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 51,
+        "ovrMax": 75,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 217,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 76,
+        "ovrMax": 88,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 217,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 89,
+        "ovrMax": 100,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 217,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 101,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 218,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 218,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 219,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 219,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 220,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 220,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 221,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 221,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 50,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 221,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 51,
+        "ovrMax": 75,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 221,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 76,
+        "ovrMax": 88,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 221,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 89,
+        "ovrMax": 100,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 221,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 101,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 222,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 222,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 225,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 225,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 50,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 225,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 51,
+        "ovrMax": 75,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 225,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 76,
+        "ovrMax": 88,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 225,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 89,
+        "ovrMax": 100,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 225,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 101,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 230,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 230,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 231,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 231,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 233,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 233,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 234,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 234,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 50,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 234,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 51,
+        "ovrMax": 75,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 234,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 76,
+        "ovrMax": 88,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 234,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 89,
+        "ovrMax": 94,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 234,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 95,
+        "ovrMax": 100,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 234,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 101,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 236,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 236,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 237,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 237,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 100,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      },
+      {
+        "seasonId": 237,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 101,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 238,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 238,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 239,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 239,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 240,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 240,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  },
+  {
+    "classId": 241,
+    "runId": "cmualiypa0000tyfh10nnw2ax",
+    "queries": [
+      {
+        "seasonId": 241,
+        "enhancements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "selectedEnhancement": 1,
+        "ovrMin": 0,
+        "ovrMax": 200,
+        "page": 1,
+        "sort": "BASE_PRICE_DESC"
+      }
+    ]
+  }
+]

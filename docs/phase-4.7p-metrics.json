@@ -1,0 +1,2231 @@
+{
+  "observedAt": "2026-09-30T06:09:28.587Z",
+  "coverage": {
+    "metadataPlayers": 88359,
+    "discoverablePlayers": null,
+    "observedDiscoverablePlayers": 3732,
+    "playersWithPrice": 3732,
+    "playersWithoutPrice": 84627,
+    "uncheckedPlayers": 84627,
+    "observedWithoutPrice": 0,
+    "unavailablePlayers": null,
+    "definition": "Unchecked is not unavailable; absence from one response is not a deletion signal."
+  },
+  "freshness": {
+    "freshThresholdHours": 24,
+    "veryStaleThresholdHours": 720,
+    "seasonId": null,
+    "enhancement": null,
+    "total": 48516,
+    "fresh": 15769,
+    "stale": 32747,
+    "veryStale": 0,
+    "medianHours": 222.67449055555556,
+    "p90Hours": 229.18308583333334,
+    "p95Hours": 229.18392722222222,
+    "p99Hours": 229.18473416666666,
+    "oldestHours": 229.18473416666666,
+    "lastSuccessfulSync": "2026-09-30T06:03:02.620Z"
+  },
+  "classes": [
+    {
+      "seasonId": 100,
+      "metadataPlayers": 126,
+      "playersWithPrice": 126,
+      "enhancement": null,
+      "total": 1638,
+      "fresh": 0,
+      "stale": 1638,
+      "veryStale": 0,
+      "medianHours": 229.18473416666666,
+      "p90Hours": 229.18473416666666,
+      "p95Hours": 229.18473416666666,
+      "p99Hours": 229.18473416666666,
+      "oldestHours": 229.18473416666666,
+      "lastSuccessfulSync": "2026-09-21T01:58:23.544Z"
+    },
+    {
+      "seasonId": 101,
+      "metadataPlayers": 145,
+      "playersWithPrice": 145,
+      "enhancement": null,
+      "total": 1885,
+      "fresh": 0,
+      "stale": 1885,
+      "veryStale": 0,
+      "medianHours": 229.18392722222222,
+      "p90Hours": 229.18392722222222,
+      "p95Hours": 229.18392722222222,
+      "p99Hours": 229.18392722222222,
+      "oldestHours": 229.18392722222222,
+      "lastSuccessfulSync": "2026-09-21T01:58:26.449Z"
+    },
+    {
+      "seasonId": 110,
+      "metadataPlayers": 125,
+      "playersWithPrice": 125,
+      "enhancement": null,
+      "total": 1625,
+      "fresh": 0,
+      "stale": 1625,
+      "veryStale": 0,
+      "medianHours": 229.18308583333334,
+      "p90Hours": 229.18308583333334,
+      "p95Hours": 229.18308583333334,
+      "p99Hours": 229.18308583333334,
+      "oldestHours": 229.18308583333334,
+      "lastSuccessfulSync": "2026-09-21T01:58:29.478Z"
+    },
+    {
+      "seasonId": 111,
+      "metadataPlayers": 14,
+      "playersWithPrice": 14,
+      "enhancement": null,
+      "total": 182,
+      "fresh": 0,
+      "stale": 182,
+      "veryStale": 0,
+      "medianHours": 229.18226388888888,
+      "p90Hours": 229.18226388888888,
+      "p95Hours": 229.18226388888888,
+      "p99Hours": 229.18226388888888,
+      "oldestHours": 229.18226388888888,
+      "lastSuccessfulSync": "2026-09-21T01:58:32.437Z"
+    },
+    {
+      "seasonId": 113,
+      "metadataPlayers": 26,
+      "playersWithPrice": 26,
+      "enhancement": null,
+      "total": 338,
+      "fresh": 0,
+      "stale": 338,
+      "veryStale": 0,
+      "medianHours": 229.18139888888888,
+      "p90Hours": 229.18139888888888,
+      "p95Hours": 229.18139888888888,
+      "p99Hours": 229.18139888888888,
+      "oldestHours": 229.18139888888888,
+      "lastSuccessfulSync": "2026-09-21T01:58:35.551Z"
+    },
+    {
+      "seasonId": 114,
+      "metadataPlayers": 2,
+      "playersWithPrice": 2,
+      "enhancement": null,
+      "total": 26,
+      "fresh": 0,
+      "stale": 26,
+      "veryStale": 0,
+      "medianHours": 229.18058805555555,
+      "p90Hours": 229.18058805555555,
+      "p95Hours": 229.18058805555555,
+      "p99Hours": 229.18058805555555,
+      "oldestHours": 229.18058805555555,
+      "lastSuccessfulSync": "2026-09-21T01:58:38.470Z"
+    },
+    {
+      "seasonId": 201,
+      "metadataPlayers": 286,
+      "playersWithPrice": 286,
+      "enhancement": null,
+      "total": 3718,
+      "fresh": 0,
+      "stale": 3718,
+      "veryStale": 0,
+      "medianHours": 229.1730861111111,
+      "p90Hours": 229.17559,
+      "p95Hours": 229.17559,
+      "p99Hours": 229.17559,
+      "oldestHours": 229.17559,
+      "lastSuccessfulSync": "2026-09-21T01:59:11.413Z"
+    },
+    {
+      "seasonId": 202,
+      "metadataPlayers": 47,
+      "playersWithPrice": 47,
+      "enhancement": null,
+      "total": 611,
+      "fresh": 0,
+      "stale": 611,
+      "veryStale": 0,
+      "medianHours": 229.17059833333334,
+      "p90Hours": 229.17059833333334,
+      "p95Hours": 229.17059833333334,
+      "p99Hours": 229.17059833333334,
+      "oldestHours": 229.17059833333334,
+      "lastSuccessfulSync": "2026-09-21T01:59:14.433Z"
+    },
+    {
+      "seasonId": 206,
+      "metadataPlayers": 515,
+      "playersWithPrice": 515,
+      "enhancement": null,
+      "total": 6695,
+      "fresh": 0,
+      "stale": 6695,
+      "veryStale": 0,
+      "medianHours": 228.98507361111112,
+      "p90Hours": 228.98922777777778,
+      "p95Hours": 228.98922777777778,
+      "p99Hours": 228.98922777777778,
+      "oldestHours": 228.98922777777778,
+      "lastSuccessfulSync": "2026-09-21T02:10:28.322Z"
+    },
+    {
+      "seasonId": 207,
+      "metadataPlayers": 321,
+      "playersWithPrice": 321,
+      "enhancement": null,
+      "total": 4173,
+      "fresh": 0,
+      "stale": 4173,
+      "veryStale": 0,
+      "medianHours": 222.70502611111112,
+      "p90Hours": 228.97589638888888,
+      "p95Hours": 228.97589638888888,
+      "p99Hours": 228.9784011111111,
+      "oldestHours": 228.9784011111111,
+      "lastSuccessfulSync": "2026-09-21T08:27:20.375Z"
+    },
+    {
+      "seasonId": 210,
+      "metadataPlayers": 339,
+      "playersWithPrice": 339,
+      "enhancement": null,
+      "total": 4407,
+      "fresh": 0,
+      "stale": 4407,
+      "veryStale": 0,
+      "medianHours": 222.67449055555556,
+      "p90Hours": 222.68560444444444,
+      "p95Hours": 222.68560444444444,
+      "p99Hours": 222.68560444444444,
+      "oldestHours": 222.68560444444444,
+      "lastSuccessfulSync": "2026-09-21T08:29:10.558Z"
+    },
+    {
+      "seasonId": 211,
+      "metadataPlayers": 12,
+      "playersWithPrice": 12,
+      "enhancement": null,
+      "total": 156,
+      "fresh": 0,
+      "stale": 156,
+      "veryStale": 0,
+      "medianHours": 222.66886027777778,
+      "p90Hours": 222.66886027777778,
+      "p95Hours": 222.66886027777778,
+      "p99Hours": 222.66886027777778,
+      "oldestHours": 222.66886027777778,
+      "lastSuccessfulSync": "2026-09-21T08:29:20.690Z"
+    },
+    {
+      "seasonId": 212,
+      "metadataPlayers": 11,
+      "playersWithPrice": 11,
+      "enhancement": null,
+      "total": 143,
+      "fresh": 0,
+      "stale": 143,
+      "veryStale": 0,
+      "medianHours": 222.6661588888889,
+      "p90Hours": 222.6661588888889,
+      "p95Hours": 222.6661588888889,
+      "p99Hours": 222.6661588888889,
+      "oldestHours": 222.6661588888889,
+      "lastSuccessfulSync": "2026-09-21T08:29:30.415Z"
+    },
+    {
+      "seasonId": 213,
+      "metadataPlayers": 7,
+      "playersWithPrice": 7,
+      "enhancement": null,
+      "total": 91,
+      "fresh": 0,
+      "stale": 91,
+      "veryStale": 0,
+      "medianHours": 222.66339027777778,
+      "p90Hours": 222.66339027777778,
+      "p95Hours": 222.66339027777778,
+      "p99Hours": 222.66339027777778,
+      "oldestHours": 222.66339027777778,
+      "lastSuccessfulSync": "2026-09-21T08:29:40.382Z"
+    },
+    {
+      "seasonId": 214,
+      "metadataPlayers": 292,
+      "playersWithPrice": 292,
+      "enhancement": null,
+      "total": 3796,
+      "fresh": 0,
+      "stale": 3796,
+      "veryStale": 0,
+      "medianHours": 203.9569525,
+      "p90Hours": 203.96249305555557,
+      "p95Hours": 203.96249305555557,
+      "p99Hours": 203.96249305555557,
+      "oldestHours": 203.96249305555557,
+      "lastSuccessfulSync": "2026-09-22T03:12:13.594Z"
+    },
+    {
+      "seasonId": 215,
+      "metadataPlayers": 184,
+      "playersWithPrice": 184,
+      "enhancement": null,
+      "total": 2392,
+      "fresh": 2392,
+      "stale": 0,
+      "veryStale": 0,
+      "medianHours": 9.806445833333333,
+      "p90Hours": 9.806445833333333,
+      "p95Hours": 9.806445833333333,
+      "p99Hours": 9.806445833333333,
+      "oldestHours": 9.806445833333333,
+      "lastSuccessfulSync": "2026-09-30T05:21:05.382Z"
+    },
+    {
+      "seasonId": 216,
+      "metadataPlayers": 251,
+      "playersWithPrice": 251,
+      "enhancement": null,
+      "total": 3263,
+      "fresh": 0,
+      "stale": 3263,
+      "veryStale": 0,
+      "medianHours": 203.92359222222223,
+      "p90Hours": 203.92913666666666,
+      "p95Hours": 203.92913666666666,
+      "p99Hours": 203.92913666666666,
+      "oldestHours": 203.92913666666666,
+      "lastSuccessfulSync": "2026-09-22T03:14:13.838Z"
+    },
+    {
+      "seasonId": 217,
+      "metadataPlayers": 280,
+      "playersWithPrice": 280,
+      "enhancement": null,
+      "total": 3640,
+      "fresh": 3640,
+      "stale": 0,
+      "veryStale": 0,
+      "medianHours": 9.140595555555556,
+      "p90Hours": 9.146153611111112,
+      "p95Hours": 9.146153611111112,
+      "p99Hours": 9.146153611111112,
+      "oldestHours": 9.146153611111112,
+      "lastSuccessfulSync": "2026-09-30T06:01:12.473Z"
+    },
+    {
+      "seasonId": 218,
+      "metadataPlayers": 112,
+      "playersWithPrice": 112,
+      "enhancement": null,
+      "total": 1456,
+      "fresh": 1456,
+      "stale": 0,
+      "veryStale": 0,
+      "medianHours": 9.135018333333333,
+      "p90Hours": 9.135018333333333,
+      "p95Hours": 9.135018333333333,
+      "p99Hours": 9.135018333333333,
+      "oldestHours": 9.135018333333333,
+      "lastSuccessfulSync": "2026-09-30T06:01:22.521Z"
+    },
+    {
+      "seasonId": 219,
+      "metadataPlayers": 103,
+      "playersWithPrice": 103,
+      "enhancement": null,
+      "total": 1339,
+      "fresh": 1339,
+      "stale": 0,
+      "veryStale": 0,
+      "medianHours": 9.132239166666666,
+      "p90Hours": 9.132239166666666,
+      "p95Hours": 9.132239166666666,
+      "p99Hours": 9.132239166666666,
+      "oldestHours": 9.132239166666666,
+      "lastSuccessfulSync": "2026-09-30T06:01:32.526Z"
+    },
+    {
+      "seasonId": 220,
+      "metadataPlayers": 12,
+      "playersWithPrice": 12,
+      "enhancement": null,
+      "total": 156,
+      "fresh": 156,
+      "stale": 0,
+      "veryStale": 0,
+      "medianHours": 9.129459166666667,
+      "p90Hours": 9.129459166666667,
+      "p95Hours": 9.129459166666667,
+      "p99Hours": 9.129459166666667,
+      "oldestHours": 9.129459166666667,
+      "lastSuccessfulSync": "2026-09-30T06:01:42.534Z"
+    },
+    {
+      "seasonId": 221,
+      "metadataPlayers": 397,
+      "playersWithPrice": 248,
+      "enhancement": null,
+      "total": 3224,
+      "fresh": 3224,
+      "stale": 0,
+      "veryStale": 0,
+      "medianHours": 9.107213055555556,
+      "p90Hours": 9.112789166666667,
+      "p95Hours": 9.112789166666667,
+      "p99Hours": 9.1183675,
+      "oldestHours": 9.1183675,
+      "lastSuccessfulSync": "2026-09-30T06:03:02.620Z"
+    },
+    {
+      "seasonId": 222,
+      "metadataPlayers": 43,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 225,
+      "metadataPlayers": 335,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 230,
+      "metadataPlayers": 161,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 231,
+      "metadataPlayers": 175,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 233,
+      "metadataPlayers": 104,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 234,
+      "metadataPlayers": 381,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 236,
+      "metadataPlayers": 7,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 237,
+      "metadataPlayers": 228,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 238,
+      "metadataPlayers": 75,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 239,
+      "metadataPlayers": 45,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 240,
+      "metadataPlayers": 12,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 241,
+      "metadataPlayers": 58,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 242,
+      "metadataPlayers": 396,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 246,
+      "metadataPlayers": 220,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 247,
+      "metadataPlayers": 18,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 249,
+      "metadataPlayers": 19,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 250,
+      "metadataPlayers": 161,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 251,
+      "metadataPlayers": 220,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 252,
+      "metadataPlayers": 163,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 253,
+      "metadataPlayers": 325,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 254,
+      "metadataPlayers": 17,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 256,
+      "metadataPlayers": 246,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 257,
+      "metadataPlayers": 50,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 258,
+      "metadataPlayers": 12,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 259,
+      "metadataPlayers": 68,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 260,
+      "metadataPlayers": 378,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 261,
+      "metadataPlayers": 19,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 262,
+      "metadataPlayers": 75,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 264,
+      "metadataPlayers": 106,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 265,
+      "metadataPlayers": 107,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 267,
+      "metadataPlayers": 160,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 268,
+      "metadataPlayers": 95,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 270,
+      "metadataPlayers": 121,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 272,
+      "metadataPlayers": 193,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 273,
+      "metadataPlayers": 373,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 274,
+      "metadataPlayers": 18,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 276,
+      "metadataPlayers": 85,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 277,
+      "metadataPlayers": 50,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 278,
+      "metadataPlayers": 12,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 279,
+      "metadataPlayers": 88,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 280,
+      "metadataPlayers": 360,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 281,
+      "metadataPlayers": 18,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 283,
+      "metadataPlayers": 185,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 284,
+      "metadataPlayers": 152,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 287,
+      "metadataPlayers": 161,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 289,
+      "metadataPlayers": 117,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 290,
+      "metadataPlayers": 9,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 291,
+      "metadataPlayers": 210,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 293,
+      "metadataPlayers": 34,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 294,
+      "metadataPlayers": 22,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 295,
+      "metadataPlayers": 59,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 297,
+      "metadataPlayers": 32,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 298,
+      "metadataPlayers": 40,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 300,
+      "metadataPlayers": 20048,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 317,
+      "metadataPlayers": 3490,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 318,
+      "metadataPlayers": 5775,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 319,
+      "metadataPlayers": 6291,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 320,
+      "metadataPlayers": 5161,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 321,
+      "metadataPlayers": 5848,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 322,
+      "metadataPlayers": 5435,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 323,
+      "metadataPlayers": 5599,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 324,
+      "metadataPlayers": 5476,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 500,
+      "metadataPlayers": 349,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 501,
+      "metadataPlayers": 1398,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 502,
+      "metadataPlayers": 1398,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 503,
+      "metadataPlayers": 998,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 504,
+      "metadataPlayers": 235,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 506,
+      "metadataPlayers": 522,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 507,
+      "metadataPlayers": 207,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 508,
+      "metadataPlayers": 654,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 510,
+      "metadataPlayers": 148,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 511,
+      "metadataPlayers": 674,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 512,
+      "metadataPlayers": 189,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 513,
+      "metadataPlayers": 492,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 514,
+      "metadataPlayers": 132,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 515,
+      "metadataPlayers": 497,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 516,
+      "metadataPlayers": 132,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 517,
+      "metadataPlayers": 500,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 518,
+      "metadataPlayers": 132,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 596,
+      "metadataPlayers": 79,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 801,
+      "metadataPlayers": 14,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 802,
+      "metadataPlayers": 135,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 804,
+      "metadataPlayers": 110,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 805,
+      "metadataPlayers": 55,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 806,
+      "metadataPlayers": 28,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 807,
+      "metadataPlayers": 18,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 808,
+      "metadataPlayers": 67,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 810,
+      "metadataPlayers": 354,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 811,
+      "metadataPlayers": 14,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 812,
+      "metadataPlayers": 1,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 813,
+      "metadataPlayers": 34,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 814,
+      "metadataPlayers": 134,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 815,
+      "metadataPlayers": 410,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 818,
+      "metadataPlayers": 16,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 820,
+      "metadataPlayers": 160,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 821,
+      "metadataPlayers": 50,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 825,
+      "metadataPlayers": 179,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 826,
+      "metadataPlayers": 210,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 827,
+      "metadataPlayers": 108,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 828,
+      "metadataPlayers": 88,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 829,
+      "metadataPlayers": 179,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 830,
+      "metadataPlayers": 51,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 831,
+      "metadataPlayers": 12,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 832,
+      "metadataPlayers": 72,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 834,
+      "metadataPlayers": 358,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 835,
+      "metadataPlayers": 19,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 836,
+      "metadataPlayers": 198,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 839,
+      "metadataPlayers": 24,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 840,
+      "metadataPlayers": 194,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 844,
+      "metadataPlayers": 161,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 845,
+      "metadataPlayers": 151,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 846,
+      "metadataPlayers": 67,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 848,
+      "metadataPlayers": 202,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 849,
+      "metadataPlayers": 50,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 850,
+      "metadataPlayers": 32,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 851,
+      "metadataPlayers": 208,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 852,
+      "metadataPlayers": 191,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 853,
+      "metadataPlayers": 50,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 854,
+      "metadataPlayers": 12,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 855,
+      "metadataPlayers": 77,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 856,
+      "metadataPlayers": 361,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 858,
+      "metadataPlayers": 9,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 861,
+      "metadataPlayers": 173,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 862,
+      "metadataPlayers": 11,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 863,
+      "metadataPlayers": 573,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 864,
+      "metadataPlayers": 30,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 866,
+      "metadataPlayers": 161,
+      "playersWithPrice": 161,
+      "enhancement": null,
+      "total": 2093,
+      "fresh": 2093,
+      "stale": 0,
+      "veryStale": 0,
+      "medianHours": 9.803033888888889,
+      "p90Hours": 9.803033888888889,
+      "p95Hours": 9.803033888888889,
+      "p99Hours": 9.803033888888889,
+      "oldestHours": 9.803033888888889,
+      "lastSuccessfulSync": "2026-09-30T05:21:17.665Z"
+    },
+    {
+      "seasonId": 867,
+      "metadataPlayers": 118,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 868,
+      "metadataPlayers": 32,
+      "playersWithPrice": 0
+    },
+    {
+      "seasonId": 877,
+      "metadataPlayers": 113,
+      "playersWithPrice": 113,
+      "enhancement": null,
+      "total": 1469,
+      "fresh": 1469,
+      "stale": 0,
+      "veryStale": 0,
+      "medianHours": 9.809351944444444,
+      "p90Hours": 9.809351944444444,
+      "p95Hours": 9.809351944444444,
+      "p99Hours": 9.809351944444444,
+      "oldestHours": 9.809351944444444,
+      "lastSuccessfulSync": "2026-09-30T05:20:54.920Z"
+    },
+    {
+      "seasonId": 879,
+      "metadataPlayers": 1,
+      "playersWithPrice": 0
+    }
+  ],
+  "enhancements": [
+    {
+      "seasonId": null,
+      "enhancement": 1,
+      "total": 3732,
+      "fresh": 1213,
+      "stale": 2519,
+      "veryStale": 0,
+      "medianHours": 222.67449055555556,
+      "p90Hours": 229.18308583333334,
+      "p95Hours": 229.18392722222222,
+      "p99Hours": 229.18473416666666,
+      "oldestHours": 229.18473416666666,
+      "lastSuccessfulSync": "2026-09-30T06:03:02.620Z",
+      "checked": 458,
+      "changed": 317,
+      "observedChangeRate": 0.6921397379912664
+    },
+    {
+      "seasonId": null,
+      "enhancement": 2,
+      "total": 3732,
+      "fresh": 1213,
+      "stale": 2519,
+      "veryStale": 0,
+      "medianHours": 222.67449055555556,
+      "p90Hours": 229.18308583333334,
+      "p95Hours": 229.18392722222222,
+      "p99Hours": 229.18473416666666,
+      "oldestHours": 229.18473416666666,
+      "lastSuccessfulSync": "2026-09-30T06:03:02.620Z",
+      "checked": 458,
+      "changed": 300,
+      "observedChangeRate": 0.6550218340611353
+    },
+    {
+      "seasonId": null,
+      "enhancement": 3,
+      "total": 3732,
+      "fresh": 1213,
+      "stale": 2519,
+      "veryStale": 0,
+      "medianHours": 222.67449055555556,
+      "p90Hours": 229.18308583333334,
+      "p95Hours": 229.18392722222222,
+      "p99Hours": 229.18473416666666,
+      "oldestHours": 229.18473416666666,
+      "lastSuccessfulSync": "2026-09-30T06:03:02.620Z",
+      "checked": 458,
+      "changed": 302,
+      "observedChangeRate": 0.6593886462882096
+    },
+    {
+      "seasonId": null,
+      "enhancement": 4,
+      "total": 3732,
+      "fresh": 1213,
+      "stale": 2519,
+      "veryStale": 0,
+      "medianHours": 222.67449055555556,
+      "p90Hours": 229.18308583333334,
+      "p95Hours": 229.18392722222222,
+      "p99Hours": 229.18473416666666,
+      "oldestHours": 229.18473416666666,
+      "lastSuccessfulSync": "2026-09-30T06:03:02.620Z",
+      "checked": 458,
+      "changed": 305,
+      "observedChangeRate": 0.665938864628821
+    },
+    {
+      "seasonId": null,
+      "enhancement": 5,
+      "total": 3732,
+      "fresh": 1213,
+      "stale": 2519,
+      "veryStale": 0,
+      "medianHours": 222.67449055555556,
+      "p90Hours": 229.18308583333334,
+      "p95Hours": 229.18392722222222,
+      "p99Hours": 229.18473416666666,
+      "oldestHours": 229.18473416666666,
+      "lastSuccessfulSync": "2026-09-30T06:03:02.620Z",
+      "checked": 458,
+      "changed": 327,
+      "observedChangeRate": 0.7139737991266376
+    },
+    {
+      "seasonId": null,
+      "enhancement": 6,
+      "total": 3732,
+      "fresh": 1213,
+      "stale": 2519,
+      "veryStale": 0,
+      "medianHours": 222.67449055555556,
+      "p90Hours": 229.18308583333334,
+      "p95Hours": 229.18392722222222,
+      "p99Hours": 229.18473416666666,
+      "oldestHours": 229.18473416666666,
+      "lastSuccessfulSync": "2026-09-30T06:03:02.620Z",
+      "checked": 458,
+      "changed": 332,
+      "observedChangeRate": 0.7248908296943232
+    },
+    {
+      "seasonId": null,
+      "enhancement": 7,
+      "total": 3732,
+      "fresh": 1213,
+      "stale": 2519,
+      "veryStale": 0,
+      "medianHours": 222.67449055555556,
+      "p90Hours": 229.18308583333334,
+      "p95Hours": 229.18392722222222,
+      "p99Hours": 229.18473416666666,
+      "oldestHours": 229.18473416666666,
+      "lastSuccessfulSync": "2026-09-30T06:03:02.620Z",
+      "checked": 458,
+      "changed": 331,
+      "observedChangeRate": 0.722707423580786
+    },
+    {
+      "seasonId": null,
+      "enhancement": 8,
+      "total": 3732,
+      "fresh": 1213,
+      "stale": 2519,
+      "veryStale": 0,
+      "medianHours": 222.67449055555556,
+      "p90Hours": 229.18308583333334,
+      "p95Hours": 229.18392722222222,
+      "p99Hours": 229.18473416666666,
+      "oldestHours": 229.18473416666666,
+      "lastSuccessfulSync": "2026-09-30T06:03:02.620Z",
+      "checked": 458,
+      "changed": 332,
+      "observedChangeRate": 0.7248908296943232
+    },
+    {
+      "seasonId": null,
+      "enhancement": 9,
+      "total": 3732,
+      "fresh": 1213,
+      "stale": 2519,
+      "veryStale": 0,
+      "medianHours": 222.67449055555556,
+      "p90Hours": 229.18308583333334,
+      "p95Hours": 229.18392722222222,
+      "p99Hours": 229.18473416666666,
+      "oldestHours": 229.18473416666666,
+      "lastSuccessfulSync": "2026-09-30T06:03:02.620Z",
+      "checked": 458,
+      "changed": 332,
+      "observedChangeRate": 0.7248908296943232
+    },
+    {
+      "seasonId": null,
+      "enhancement": 10,
+      "total": 3732,
+      "fresh": 1213,
+      "stale": 2519,
+      "veryStale": 0,
+      "medianHours": 222.67449055555556,
+      "p90Hours": 229.18308583333334,
+      "p95Hours": 229.18392722222222,
+      "p99Hours": 229.18473416666666,
+      "oldestHours": 229.18473416666666,
+      "lastSuccessfulSync": "2026-09-30T06:03:02.620Z",
+      "checked": 458,
+      "changed": 331,
+      "observedChangeRate": 0.722707423580786
+    },
+    {
+      "seasonId": null,
+      "enhancement": 11,
+      "total": 3732,
+      "fresh": 1213,
+      "stale": 2519,
+      "veryStale": 0,
+      "medianHours": 222.67449055555556,
+      "p90Hours": 229.18308583333334,
+      "p95Hours": 229.18392722222222,
+      "p99Hours": 229.18473416666666,
+      "oldestHours": 229.18473416666666,
+      "lastSuccessfulSync": "2026-09-30T06:03:02.620Z",
+      "checked": 458,
+      "changed": 328,
+      "observedChangeRate": 0.7161572052401747
+    },
+    {
+      "seasonId": null,
+      "enhancement": 12,
+      "total": 3732,
+      "fresh": 1213,
+      "stale": 2519,
+      "veryStale": 0,
+      "medianHours": 222.67449055555556,
+      "p90Hours": 229.18308583333334,
+      "p95Hours": 229.18392722222222,
+      "p99Hours": 229.18473416666666,
+      "oldestHours": 229.18473416666666,
+      "lastSuccessfulSync": "2026-09-30T06:03:02.620Z",
+      "checked": 458,
+      "changed": 278,
+      "observedChangeRate": 0.6069868995633187
+    },
+    {
+      "seasonId": null,
+      "enhancement": 13,
+      "total": 3732,
+      "fresh": 1213,
+      "stale": 2519,
+      "veryStale": 0,
+      "medianHours": 222.67449055555556,
+      "p90Hours": 229.18308583333334,
+      "p95Hours": 229.18392722222222,
+      "p99Hours": 229.18473416666666,
+      "oldestHours": 229.18473416666666,
+      "lastSuccessfulSync": "2026-09-30T06:03:02.620Z",
+      "checked": 458,
+      "changed": 275,
+      "observedChangeRate": 0.6004366812227074
+    }
+  ],
+  "observations": {
+    "batches": 15,
+    "intervals": [
+      {
+        "hours": 2,
+        "checked": 0,
+        "changed": 0,
+        "rate": null,
+        "status": "INSUFFICIENT_DATA",
+        "qualifyingBatches": 0
+      },
+      {
+        "hours": 4,
+        "checked": 0,
+        "changed": 0,
+        "rate": null,
+        "status": "INSUFFICIENT_DATA",
+        "qualifyingBatches": 0
+      },
+      {
+        "hours": 6,
+        "checked": 0,
+        "changed": 0,
+        "rate": null,
+        "status": "INSUFFICIENT_DATA",
+        "qualifyingBatches": 0
+      },
+      {
+        "hours": 24,
+        "checked": 0,
+        "changed": 0,
+        "rate": null,
+        "status": "INSUFFICIENT_DATA",
+        "qualifyingBatches": 0
+      }
+    ],
+    "notice": "Gap between our observations, not source change time. Samples are not a market-wide random sample."
+  },
+  "studies": [
+    {
+      "id": "price-cycle-v1",
+      "active": true,
+      "cohort": [
+        {
+          "id": "877240716-1",
+          "seasonId": 877,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "877240716-2",
+          "seasonId": 877,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "877240716-3",
+          "seasonId": 877,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "877240716-4",
+          "seasonId": 877,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "877240716-5",
+          "seasonId": 877,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "877240716-6",
+          "seasonId": 877,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "877240716-7",
+          "seasonId": 877,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "877240716-8",
+          "seasonId": 877,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "877240716-9",
+          "seasonId": 877,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "877240716-10",
+          "seasonId": 877,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "877240716-11",
+          "seasonId": 877,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "877240716-12",
+          "seasonId": 877,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "877240716-13",
+          "seasonId": 877,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "877211110-1",
+          "seasonId": 877,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "877211110-2",
+          "seasonId": 877,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "877211110-3",
+          "seasonId": 877,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "877211110-4",
+          "seasonId": 877,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "877211110-5",
+          "seasonId": 877,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "877211110-6",
+          "seasonId": 877,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "877211110-7",
+          "seasonId": 877,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "877211110-8",
+          "seasonId": 877,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "877211110-9",
+          "seasonId": 877,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "877211110-10",
+          "seasonId": 877,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "877211110-11",
+          "seasonId": 877,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "877211110-12",
+          "seasonId": 877,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "877211110-13",
+          "seasonId": 877,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "877020801-1",
+          "seasonId": 877,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "877020801-2",
+          "seasonId": 877,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "877020801-3",
+          "seasonId": 877,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "877020801-4",
+          "seasonId": 877,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "877020801-5",
+          "seasonId": 877,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "877020801-6",
+          "seasonId": 877,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "877020801-7",
+          "seasonId": 877,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "877020801-8",
+          "seasonId": 877,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "877020801-9",
+          "seasonId": 877,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "877020801-10",
+          "seasonId": 877,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "877020801-11",
+          "seasonId": 877,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "877020801-12",
+          "seasonId": 877,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "877020801-13",
+          "seasonId": 877,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "866226807-1",
+          "seasonId": 866,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "866226807-2",
+          "seasonId": 866,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "866226807-3",
+          "seasonId": 866,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "866226807-4",
+          "seasonId": 866,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "866226807-5",
+          "seasonId": 866,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "866226807-6",
+          "seasonId": 866,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "866226807-7",
+          "seasonId": 866,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "866226807-8",
+          "seasonId": 866,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "866226807-9",
+          "seasonId": 866,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "866226807-10",
+          "seasonId": 866,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "866226807-11",
+          "seasonId": 866,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "866226807-12",
+          "seasonId": 866,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "866226807-13",
+          "seasonId": 866,
+          "valueStratum": "LOW",
+          "knownPackClass": true
+        },
+        {
+          "id": "866199503-1",
+          "seasonId": 866,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "866199503-2",
+          "seasonId": 866,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "866199503-3",
+          "seasonId": 866,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "866199503-4",
+          "seasonId": 866,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "866199503-5",
+          "seasonId": 866,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "866199503-6",
+          "seasonId": 866,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "866199503-7",
+          "seasonId": 866,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "866199503-8",
+          "seasonId": 866,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "866199503-9",
+          "seasonId": 866,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "866199503-10",
+          "seasonId": 866,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "866199503-11",
+          "seasonId": 866,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "866199503-12",
+          "seasonId": 866,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "866199503-13",
+          "seasonId": 866,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": true
+        },
+        {
+          "id": "866231747-1",
+          "seasonId": 866,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "866231747-2",
+          "seasonId": 866,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "866231747-3",
+          "seasonId": 866,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "866231747-4",
+          "seasonId": 866,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "866231747-5",
+          "seasonId": 866,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "866231747-6",
+          "seasonId": 866,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "866231747-7",
+          "seasonId": 866,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "866231747-8",
+          "seasonId": 866,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "866231747-9",
+          "seasonId": 866,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "866231747-10",
+          "seasonId": 866,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "866231747-11",
+          "seasonId": 866,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "866231747-12",
+          "seasonId": 866,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "866231747-13",
+          "seasonId": 866,
+          "valueStratum": "HIGH",
+          "knownPackClass": true
+        },
+        {
+          "id": "215020801-1",
+          "seasonId": 215,
+          "valueStratum": "LOW",
+          "knownPackClass": false
+        },
+        {
+          "id": "215020801-2",
+          "seasonId": 215,
+          "valueStratum": "LOW",
+          "knownPackClass": false
+        },
+        {
+          "id": "215020801-3",
+          "seasonId": 215,
+          "valueStratum": "LOW",
+          "knownPackClass": false
+        },
+        {
+          "id": "215020801-4",
+          "seasonId": 215,
+          "valueStratum": "LOW",
+          "knownPackClass": false
+        },
+        {
+          "id": "215020801-5",
+          "seasonId": 215,
+          "valueStratum": "LOW",
+          "knownPackClass": false
+        },
+        {
+          "id": "215020801-6",
+          "seasonId": 215,
+          "valueStratum": "LOW",
+          "knownPackClass": false
+        },
+        {
+          "id": "215020801-7",
+          "seasonId": 215,
+          "valueStratum": "LOW",
+          "knownPackClass": false
+        },
+        {
+          "id": "215020801-8",
+          "seasonId": 215,
+          "valueStratum": "LOW",
+          "knownPackClass": false
+        },
+        {
+          "id": "215020801-9",
+          "seasonId": 215,
+          "valueStratum": "LOW",
+          "knownPackClass": false
+        },
+        {
+          "id": "215020801-10",
+          "seasonId": 215,
+          "valueStratum": "LOW",
+          "knownPackClass": false
+        },
+        {
+          "id": "215020801-11",
+          "seasonId": 215,
+          "valueStratum": "LOW",
+          "knownPackClass": false
+        },
+        {
+          "id": "215020801-12",
+          "seasonId": 215,
+          "valueStratum": "LOW",
+          "knownPackClass": false
+        },
+        {
+          "id": "215020801-13",
+          "seasonId": 215,
+          "valueStratum": "LOW",
+          "knownPackClass": false
+        },
+        {
+          "id": "215143076-1",
+          "seasonId": 215,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": false
+        },
+        {
+          "id": "215143076-2",
+          "seasonId": 215,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": false
+        },
+        {
+          "id": "215143076-3",
+          "seasonId": 215,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": false
+        },
+        {
+          "id": "215143076-4",
+          "seasonId": 215,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": false
+        },
+        {
+          "id": "215143076-5",
+          "seasonId": 215,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": false
+        },
+        {
+          "id": "215143076-6",
+          "seasonId": 215,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": false
+        },
+        {
+          "id": "215143076-7",
+          "seasonId": 215,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": false
+        },
+        {
+          "id": "215143076-8",
+          "seasonId": 215,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": false
+        },
+        {
+          "id": "215143076-9",
+          "seasonId": 215,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": false
+        },
+        {
+          "id": "215143076-10",
+          "seasonId": 215,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": false
+        },
+        {
+          "id": "215143076-11",
+          "seasonId": 215,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": false
+        },
+        {
+          "id": "215143076-12",
+          "seasonId": 215,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": false
+        },
+        {
+          "id": "215143076-13",
+          "seasonId": 215,
+          "valueStratum": "MEDIUM",
+          "knownPackClass": false
+        },
+        {
+          "id": "215203574-1",
+          "seasonId": 215,
+          "valueStratum": "HIGH",
+          "knownPackClass": false
+        },
+        {
+          "id": "215203574-2",
+          "seasonId": 215,
+          "valueStratum": "HIGH",
+          "knownPackClass": false
+        },
+        {
+          "id": "215203574-3",
+          "seasonId": 215,
+          "valueStratum": "HIGH",
+          "knownPackClass": false
+        },
+        {
+          "id": "215203574-4",
+          "seasonId": 215,
+          "valueStratum": "HIGH",
+          "knownPackClass": false
+        },
+        {
+          "id": "215203574-5",
+          "seasonId": 215,
+          "valueStratum": "HIGH",
+          "knownPackClass": false
+        },
+        {
+          "id": "215203574-6",
+          "seasonId": 215,
+          "valueStratum": "HIGH",
+          "knownPackClass": false
+        },
+        {
+          "id": "215203574-7",
+          "seasonId": 215,
+          "valueStratum": "HIGH",
+          "knownPackClass": false
+        },
+        {
+          "id": "215203574-8",
+          "seasonId": 215,
+          "valueStratum": "HIGH",
+          "knownPackClass": false
+        },
+        {
+          "id": "215203574-9",
+          "seasonId": 215,
+          "valueStratum": "HIGH",
+          "knownPackClass": false
+        },
+        {
+          "id": "215203574-10",
+          "seasonId": 215,
+          "valueStratum": "HIGH",
+          "knownPackClass": false
+        },
+        {
+          "id": "215203574-11",
+          "seasonId": 215,
+          "valueStratum": "HIGH",
+          "knownPackClass": false
+        },
+        {
+          "id": "215203574-12",
+          "seasonId": 215,
+          "valueStratum": "HIGH",
+          "knownPackClass": false
+        },
+        {
+          "id": "215203574-13",
+          "seasonId": 215,
+          "valueStratum": "HIGH",
+          "knownPackClass": false
+        }
+      ],
+      "maxCycles": 4,
+      "completedCycles": 1,
+      "nextEligibleAt": "2026-09-30T07:21:17.665Z",
+      "windows": [
+        {
+          "hours": 2,
+          "pairs": 0,
+          "checked": 0,
+          "changed": 0,
+          "rate": null,
+          "status": "INSUFFICIENT_DATA"
+        },
+        {
+          "hours": 4,
+          "pairs": 0,
+          "checked": 0,
+          "changed": 0,
+          "rate": null,
+          "status": "INSUFFICIENT_DATA"
+        },
+        {
+          "hours": 6,
+          "pairs": 0,
+          "checked": 0,
+          "changed": 0,
+          "rate": null,
+          "status": "INSUFFICIENT_DATA"
+        },
+        {
+          "hours": 24,
+          "pairs": 0,
+          "checked": 0,
+          "changed": 0,
+          "rate": null,
+          "status": "INSUFFICIENT_DATA"
+        }
+      ],
+      "cycles": [
+        {
+          "id": "cmunnpxs80005typbs8gfe0s9",
+          "studyId": "price-cycle-v1",
+          "runId": "cmunnpxrx0000typb76r3svwm",
+          "startedAt": "2026-09-30T05:20:43.592Z",
+          "completedAt": "2026-09-30T05:21:17.665Z",
+          "metrics": {
+            "changed": 0,
+            "checked": 117,
+            "missing": 0,
+            "baseline": true,
+            "freshened": 0,
+            "intervals": {
+              "2": {
+                "changed": 0,
+                "checked": 0
+              },
+              "4": {
+                "changed": 0,
+                "checked": 0
+              },
+              "6": {
+                "changed": 0,
+                "checked": 0
+              },
+              "24": {
+                "changed": 0,
+                "checked": 0
+              }
+            },
+            "newPrices": 117,
+            "unchanged": 0,
+            "changeRate": null,
+            "comparable": 0,
+            "enhancements": {},
+            "largeChanges": 0,
+            "observationEnd": "2026-09-30T05:21:17.665Z",
+            "sourceChangedAt": null,
+            "observationStart": "2026-09-30T05:20:43.592Z",
+            "firstObservedChangedAt": null,
+            "medianAbsoluteChangePercent": null
+          },
+          "retainedSampleValues": 117
+        }
+      ],
+      "notice": "Endpoint comparisons can miss intervening changes. Pairs overlap and are not independent market samples."
+    }
+  ],
+  "backlog": {
+    "bootstrapRemainingSegments": 132,
+    "estimatedRequestsToClearBootstrap": 1126,
+    "refreshDueSegments": 1,
+    "estimatedRequestsToMeetConfiguredTargets": 1,
+    "referenceDueSnapshots": 0
+  },
+  "strategies": [
+    {
+      "name": "Full every 2h",
+      "estimatedHttpPerDay": 14976,
+      "estimatedHttpPer30Days": 449280,
+      "minimumActiveHoursPerDay": 41.6,
+      "medianAgeTargetHours": null,
+      "p95AgeTargetHours": null,
+      "coverage": "Unknown until discovery completes",
+      "feasibleWithinCurrentDayBudget": false
+    },
+    {
+      "name": "Full every 4h",
+      "estimatedHttpPerDay": 7488,
+      "estimatedHttpPer30Days": 224640,
+      "minimumActiveHoursPerDay": 20.8,
+      "medianAgeTargetHours": null,
+      "p95AgeTargetHours": null,
+      "coverage": "Unknown until discovery completes",
+      "feasibleWithinCurrentDayBudget": false
+    },
+    {
+      "name": "Full daily",
+      "estimatedHttpPerDay": 1248,
+      "estimatedHttpPer30Days": 37440,
+      "minimumActiveHoursPerDay": 3.466666666666667,
+      "medianAgeTargetHours": null,
+      "p95AgeTargetHours": null,
+      "coverage": "Unknown until discovery completes",
+      "feasibleWithinCurrentDayBudget": false
+    },
+    {
+      "name": "HOT/WARM/COLD",
+      "estimatedHttpPerDay": 90.49999999999987,
+      "estimatedHttpPer30Days": 2714.9999999999964,
+      "minimumActiveHoursPerDay": 0.25138888888888855,
+      "medianAgeTargetHours": null,
+      "p95AgeTargetHours": null,
+      "coverage": "Unknown until discovery completes",
+      "feasibleWithinCurrentDayBudget": true
+    },
+    {
+      "name": "Adaptive under budget",
+      "estimatedHttpPerDay": 120,
+      "estimatedHttpPer30Days": 3600,
+      "minimumActiveHoursPerDay": 0.3333333333333333,
+      "medianAgeTargetHours": null,
+      "p95AgeTargetHours": null,
+      "coverage": "Unknown until discovery completes",
+      "feasibleWithinCurrentDayBudget": true
+    },
+    {
+      "name": "Hybrid",
+      "estimatedHttpPerDay": 100.89999999999988,
+      "estimatedHttpPer30Days": 3026.9999999999964,
+      "minimumActiveHoursPerDay": 0.28027777777777746,
+      "medianAgeTargetHours": null,
+      "p95AgeTargetHours": null,
+      "coverage": "Unknown until discovery completes",
+      "feasibleWithinCurrentDayBudget": true
+    }
+  ],
+  "safety": {
+    "enabled": true,
+    "circuit": "CLOSED",
+    "circuitUntil": null,
+    "circuitReason": null,
+    "active": false,
+    "counts": {
+      "minute": 0,
+      "hour": 24,
+      "day": 26,
+      "run": 20
+    },
+    "remaining": {
+      "minute": 6,
+      "hour": 36,
+      "day": 94,
+      "run": 0
+    }
+  },
+  "calibration": {
+    "completedLargeClasses": 7,
+    "observedToPredictedRatio": 2.586206896551724,
+    "alternativeInitialPriceRequests": 2884,
+    "alternativeInitialHttpRequests": 3036,
+    "confidence": "LOW: completed classes are not a random sample; alternative is sensitivity analysis, not a confidence interval."
+  },
+  "requests": [
+    {
+      "_count": 3,
+      "url": "https://fconline.nexon.com/robots.txt",
+      "statusCode": 200,
+      "errorCode": null
+    },
+    {
+      "_count": 22,
+      "url": "https://fconline.nexon.com/datacenter/PlayerList",
+      "statusCode": 200,
+      "errorCode": null
+    },
+    {
+      "_count": 1,
+      "url": "https://fconline.nexon.com/datacenter",
+      "statusCode": 200,
+      "errorCode": null
+    }
+  ]
+}

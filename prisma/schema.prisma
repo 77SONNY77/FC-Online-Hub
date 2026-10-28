@@ -1,0 +1,591 @@
+generator client {
+  provider = "prisma-client-js"
+}
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+enum SourceKind {
+  OFFICIAL_API
+  OFFICIAL_WEB
+  REFERENCE
+  MOCK
+}
+enum VerificationStatus {
+  VERIFIED
+  NEEDS_VERIFICATION
+  REJECTED
+}
+enum DataType {
+  OFFICIAL
+  REFERENCE
+  MOCK
+}
+enum ItemKind {
+  PLAYER_PACK
+  BOX
+  BP_CARD
+  EVENT_ITEM
+}
+enum CompositionStatus {
+  DOCUMENTED
+  UNKNOWN
+}
+model DataSource {
+  id       String @id
+  name     String
+  kind     SourceKind
+  url      String?
+  notes    String
+  datasets DatasetVersion[]
+}
+model DatasetVersion {
+  id                 String @id
+  version            Int
+  sourceId           String
+  source             DataSource @relation(fields: [sourceId], references: [id])
+  dataType           DataType
+  verificationStatus VerificationStatus
+  lastUpdatedAt      DateTime
+  verifiedAt         DateTime?
+  productVersions    ProductVersion[]
+  itemVersions       ItemVersion[]
+  chargeOptions      FCChargeOption[]
+  snapshots          SourceSnapshot[]
+  rewardPools        RewardPoolVersion[]
+  importHash         String?
+  @@unique([sourceId, version])
+}
+model Product {
+  id       String @id
+  versions ProductVersion[]
+}
+model ProductVersion {
+  id                 String @id
+  productId          String
+  product            Product @relation(fields: [productId], references: [id])
+  version            Int
+  datasetId          String
+  dataset            DatasetVersion @relation(fields: [datasetId], references: [id])
+  name               String
+  description        String
+  imagePath          String?
+  price              Decimal? @db.Decimal(30, 0)
+  currency           String?
+  salePeriod         String?
+  purchaseLimit      String?
+  compositionStatus  CompositionStatus
+  components         ProductComponent[]
+  published          Boolean @default(false)
+  purchasePolicy     PurchasePolicy?
+  purchases          Purchase[]
+  fieldVerification  Json?
+  saleStartsAt       DateTime?
+  saleEndsAt         DateTime?
+  evidenceSnapshotId String?
+  evidenceSnapshot   SourceSnapshot? @relation(fields: [evidenceSnapshotId], references: [id])
+  @@unique([productId, version])
+  @@index([datasetId, published])
+}
+model Item {
+  id       String @id
+  versions ItemVersion[]
+}
+model ItemVersion {
+  id                String @id
+  itemId            String
+  item              Item @relation(fields: [itemId], references: [id])
+  version           Int
+  datasetId         String
+  dataset           DatasetVersion @relation(fields: [datasetId], references: [id])
+  name              String
+  kind              ItemKind
+  description       String
+  compositionStatus CompositionStatus
+  rewardBehavior    RewardBehavior @default(UNKNOWN)
+  conditionRaw      String?
+  rewardPool        RewardPoolVersion?
+  rewardTargets     ProbabilityEntry[] @relation("RewardItemTarget")
+  products          ProductComponent[]
+  inventoryEntries  InventoryEntry[]
+  children          ItemComponent[] @relation("ParentItem")
+  parents           ItemComponent[] @relation("ChildItem")
+  @@unique([itemId, version])
+}
+model ProductComponent {
+  id               String @id
+  productVersionId String
+  productVersion   ProductVersion @relation(fields: [productVersionId], references: [id])
+  itemVersionId    String
+  itemVersion      ItemVersion @relation(fields: [itemVersionId], references: [id])
+  quantity         Int
+  position         Int
+  @@unique([productVersionId, position])
+}
+// Structural composition only. No reward selection or probability logic in Phase 1.
+model ItemComponent {
+  id            String @id
+  parentId      String
+  parent        ItemVersion @relation("ParentItem", fields: [parentId], references: [id])
+  childId       String
+  child         ItemVersion @relation("ChildItem", fields: [childId], references: [id])
+  quantity      Int
+  position      Int
+  @@unique([parentId, position])
+}
+
+// Service policy, not an assertion about real-world purchase limits.
+model PurchasePolicy {
+  productVersionId String @id
+  productVersion ProductVersion @relation(fields: [productVersionId], references: [id])
+  enabled Boolean @default(false)
+  maxPerReset Int?
+}
+model BrowserState {
+  id String @id @default(cuid())
+  tokenHash String @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  epoch Int @default(0)
+  revision Int @default(0)
+  wallets WalletBalance[]
+  entries WalletEntry[]
+  purchases Purchase[]
+  inventory InventoryEntry[]
+  requests IdempotencyRecord[]
+  @@index([expiresAt])
+}
+model WalletBalance {
+  id String @id @default(cuid())
+  browserId String
+  browser BrowserState @relation(fields: [browserId], references: [id], onDelete: Cascade)
+  dataType DataType
+  currency String @default("FC")
+  balance BigInt @default(0)
+  @@unique([browserId, dataType, currency])
+}
+enum WalletEntryType {
+  CHARGE
+  PURCHASE
+  RESET
+}
+model WalletEntry {
+  id String @id @default(cuid())
+  browserId String
+  browser BrowserState @relation(fields: [browserId], references: [id], onDelete: Cascade)
+  epoch Int
+  dataType DataType
+  currency String @default("FC")
+  type WalletEntryType
+  amount BigInt
+  balanceAfter BigInt
+  reason String
+  chargeOptionId String?
+  chargeOption FCChargeOption? @relation(fields: [chargeOptionId], references: [id])
+  purchaseId String? @unique
+  purchase Purchase? @relation(fields: [purchaseId], references: [id])
+  createdAt DateTime @default(now())
+  @@index([browserId, epoch, createdAt])
+}
+model FCChargeOption {
+  id String @id
+  fcAmount BigInt
+  bonusFc BigInt @default(0)
+  displayOrder Int
+  enabled Boolean @default(true)
+  datasetId String
+  dataset DatasetVersion @relation(fields: [datasetId], references: [id])
+  entries WalletEntry[]
+}
+model Purchase {
+  id String @id @default(cuid())
+  browserId String
+  browser BrowserState @relation(fields: [browserId], references: [id], onDelete: Cascade)
+  epoch Int
+  productVersionId String
+  productVersion ProductVersion @relation(fields: [productVersionId], references: [id])
+  productName String
+  quantity Int
+  unitPrice BigInt
+  total BigInt
+  dataType DataType
+  createdAt DateTime @default(now())
+  inventory InventoryEntry[]
+  ledger WalletEntry?
+  @@index([browserId, epoch, productVersionId])
+}
+model InventoryEntry {
+  id String @id @default(cuid())
+  browserId String
+  browser BrowserState @relation(fields: [browserId], references: [id], onDelete: Cascade)
+  epoch Int
+  purchaseId String
+  purchase Purchase @relation(fields: [purchaseId], references: [id], onDelete: Cascade)
+  itemVersionId String
+  itemVersion ItemVersion @relation(fields: [itemVersionId], references: [id])
+  itemName String
+  itemKind ItemKind
+  quantity Int
+  dataType DataType
+  createdAt DateTime @default(now())
+  @@index([browserId, epoch])
+}
+model IdempotencyRecord {
+  id String @id @default(cuid())
+  browserId String
+  browser BrowserState @relation(fields: [browserId], references: [id], onDelete: Cascade)
+  key String
+  fingerprint String
+  receipt Json
+  createdAt DateTime @default(now())
+  @@unique([browserId, key])
+  @@index([browserId, createdAt])
+}
+
+enum RewardBehavior {
+  UNKNOWN
+  FIXED
+  ALL
+  WEIGHTED_RANDOM
+  PLAYER_POOL
+}
+enum RewardTargetType {
+  NESTED_ITEM
+  PRICE_RANK
+  BP_AMOUNT
+}
+model SourceSnapshot {
+  id String @id
+  datasetId String
+  dataset DatasetVersion @relation(fields: [datasetId], references: [id])
+  sourceUrl String
+  fetchedAt DateTime
+  verifiedAt DateTime
+  acquisition String
+  retrievalNote String
+  contentHash String
+  content String
+  products ProductVersion[]
+  pools RewardPoolVersion[]
+}
+// One pool definition belongs to an immutable item version; no draw engine.
+model RewardPoolVersion {
+  id String @id
+  version Int
+  itemVersionId String @unique
+  itemVersion ItemVersion @relation(fields: [itemVersionId], references: [id])
+  datasetId String
+  dataset DatasetVersion @relation(fields: [datasetId], references: [id])
+  snapshotId String
+  snapshot SourceSnapshot @relation(fields: [snapshotId], references: [id])
+  behavior RewardBehavior
+  conditionRaw String
+  effectivePeriod String
+  verificationStatus VerificationStatus
+  denominator Decimal @db.Decimal(40, 0)
+  sumNumerator Decimal @db.Decimal(40, 0)
+  toleranceNumerator Decimal @db.Decimal(40, 0)
+  entries ProbabilityEntry[]
+  rankSnapshots PlayerPriceRankSnapshot[]
+}
+model ProbabilityEntry {
+  id String @id
+  poolId String
+  pool RewardPoolVersion @relation(fields: [poolId], references: [id])
+  position Int
+  targetType RewardTargetType
+  targetItemVersionId String?
+  targetItemVersion ItemVersion? @relation("RewardItemTarget", fields: [targetItemVersionId], references: [id])
+  rank Int?
+  bpAmount Decimal? @db.Decimal(30, 0)
+  rewardLabel String
+  quantity Int
+  conditionRaw String
+  probabilityRaw String
+  numerator Decimal @db.Decimal(40, 0)
+  @@unique([poolId, position])
+}
+
+// Public metadata is versioned independently from shop definitions.
+model PlayerDataset {
+  id String @id
+  sourceUrl String
+  observedAt DateTime
+  contentHash String @unique
+  playersRaw String
+  seasonsRaw String
+  players Player[]
+  seasons Season[]
+}
+model Season {
+  id Int @id
+  name String
+  imageUrl String
+  datasetId String
+  dataset PlayerDataset @relation(fields: [datasetId], references: [id])
+  players Player[]
+}
+model Player {
+  spid String @id
+  pid String
+  name String
+  seasonId Int
+  season Season @relation(fields: [seasonId], references: [id])
+  imageUrl String
+  datasetId String
+  dataset PlayerDataset @relation(fields: [datasetId], references: [id])
+  lastUpdatedAt DateTime
+  variants PlayerVariant[]
+  @@index([name, spid])
+  @@index([seasonId, spid])
+}
+model PlayerVariant {
+  id String @id
+  spid String
+  player Player @relation(fields: [spid], references: [spid])
+  enhancement Int
+  prices PlayerPriceSnapshot[]
+  current PlayerCurrentState?
+  rankEntries PlayerPriceRankEntry[]
+  @@unique([spid, enhancement])
+}
+model PriceSourceSnapshot {
+  id String @id
+  sourceUrl String
+  source SourceKind
+  observedAt DateTime
+  contentHash String
+  content String
+  notes String
+  prices PlayerPriceSnapshot[]
+  collectionSegment PriceCollectionSegment?
+  captureKey String @default("GENERAL")
+  @@unique([sourceUrl, observedAt, captureKey])
+}
+model PlayerPriceSnapshot {
+  id String @id
+  variantId String
+  variant PlayerVariant @relation(fields: [variantId], references: [id])
+  price Decimal @db.Decimal(30, 0)
+  referenceAt DateTime?
+  observedAt DateTime
+  snapshotId String
+  snapshot PriceSourceSnapshot @relation(fields: [snapshotId], references: [id])
+  verificationStatus VerificationStatus
+  reason String @default("LEGACY")
+  // Observed stats only; never calculated from enhancement.
+  ovr Int?
+  position String?
+  rankEntries PlayerPriceRankEntry[]
+  @@unique([variantId, snapshotId])
+  @@index([variantId, observedAt])
+}
+enum ResolutionStatus {
+  RESOLVED
+  PARTIALLY_RESOLVED
+  UNRESOLVED
+  NEEDS_VERIFICATION
+}
+model PlayerPriceRankSnapshot {
+  status String @default("UNRESOLVED")
+  timezone String @default("Asia/Seoul")
+  referenceRule String @default("OPEN_DATE_WINDOW")
+  evidence Json?
+  audit Json?
+  runId String? @unique
+  createdAt DateTime @default(now())
+  verifiedAt DateTime?
+  collectionStartedAt DateTime?
+  collectionCompletedAt DateTime?
+  id String @id
+  poolId String
+  pool RewardPoolVersion @relation(fields: [poolId], references: [id])
+  referenceDate String
+  windowStart DateTime
+  windowEnd DateTime
+  conditionHash String
+  condition Json
+  complete Boolean @default(false)
+  candidateCount Int
+  tiePolicy String
+  sourceUrl String
+  datasetVersion String
+  verificationStatus VerificationStatus
+  resolutionStatus ResolutionStatus @default(UNRESOLVED)
+  observedWindowStart DateTime?
+  observedWindowEnd DateTime?
+  pricedCount Int?
+  entries PlayerPriceRankEntry[]
+  @@unique([poolId, referenceDate, conditionHash, datasetVersion])
+  @@index([windowStart, status], map: "rank_snapshot_window_status")
+}
+
+enum PriceCollectionStatus {
+  PLANNED
+  RUNNING
+  PAUSED
+  COMPLETE
+  PARTIAL
+  FAILED
+  BLOCKED
+}
+enum PriceSegmentStatus {
+  PENDING
+  RUNNING
+  SUCCEEDED
+  SPLIT
+  FAILED
+  BLOCKED
+}
+model PriceCollectionRun {
+  id String @id @default(cuid())
+  mode String
+  targetPoolId String?
+  plan Json
+  planHash String
+  status PriceCollectionStatus @default(PLANNED)
+  createdAt DateTime @default(now())
+  startedAt DateTime?
+  finishedAt DateTime?
+  leaseToken String?
+  leaseExpiresAt DateTime?
+  lastError String?
+  segments PriceCollectionSegment[]
+}
+model PriceCollectionSegment {
+  id String @id @default(cuid())
+  runId String
+  run PriceCollectionRun @relation(fields: [runId], references: [id])
+  key String
+  priority Int @default(0)
+  query Json
+  parentKey String?
+  expectedCount Int?
+  retrievedCount Int?
+  status PriceSegmentStatus @default(PENDING)
+  snapshotId String? @unique
+  snapshot PriceSourceSnapshot? @relation(fields: [snapshotId], references: [id])
+  responseHash String?
+  responseHtml String?
+  observedAt DateTime?
+  lastError String?
+  result Json?
+  requests PriceCollectionRequest[]
+  @@unique([runId, key])
+  @@index([runId, status])
+}
+model PriceCollectionRequest {
+  id String @id @default(cuid())
+  segmentId String
+  segment PriceCollectionSegment @relation(fields: [segmentId], references: [id])
+  startedAt DateTime
+  finishedAt DateTime
+  statusCode Int?
+  errorCode String?
+  @@index([segmentId])
+}
+model PlayerPriceRankEntry {
+  id String @id
+  snapshotId String
+  snapshot PlayerPriceRankSnapshot @relation(fields: [snapshotId], references: [id])
+  rank Int
+  variantId String
+  variant PlayerVariant @relation(fields: [variantId], references: [id])
+  priceSnapshotId String
+  priceSnapshot PlayerPriceSnapshot @relation(fields: [priceSnapshotId], references: [id])
+  // Eligibility must be supported by the verified candidate snapshot.
+  available Boolean?
+  @@unique([snapshotId, rank])
+  @@unique([snapshotId, variantId])
+}
+
+model PriceCollectorState {
+  id String @id
+  enabled Boolean @default(true)
+  leaseToken String?
+  leaseExpiresAt DateTime?
+  circuitUntil DateTime?
+  circuitReason String?
+  failures Int @default(0)
+  requests PriceCollectorRequest[]
+}
+model PriceCollectorExecution {
+  id String @id @default(cuid())
+  runId String
+  reason String
+  startedAt DateTime @default(now())
+  finishedAt DateTime?
+  stopReason String?
+  requests PriceCollectorRequest[]
+}
+model PriceCollectorRequest {
+  id String @id @default(cuid())
+  sourceId String
+  source PriceCollectorState @relation(fields: [sourceId], references: [id])
+  executionId String
+  execution PriceCollectorExecution @relation(fields: [executionId], references: [id])
+  requestedAt DateTime @default(now())
+  finishedAt DateTime?
+  url String
+  statusCode Int?
+  errorCode String?
+  signals Json?
+  @@index([sourceId, requestedAt])
+  @@index([executionId])
+}
+
+model PlayerCurrentState {
+  variantId String @id
+  variant PlayerVariant @relation(fields: [variantId], references: [id], onDelete: Cascade)
+  price Decimal @db.Decimal(30, 0)
+  observedAt DateTime
+  historyAt DateTime
+  snapshotId String
+  historyId String
+  ovr Int?
+  position String?
+  @@index([observedAt])
+}
+model PriceSyncState {
+  id String @id
+  leaseToken String?
+  leaseExpiresAt DateTime?
+  nextEligibleAt DateTime?
+  pausedUntil DateTime?
+  pauseReason String?
+}
+model PriceSyncJob {
+  id String @id @default(cuid())
+  type String
+  runId String?
+  status String
+  startedAt DateTime @default(now())
+  finishedAt DateTime?
+  nextEligibleAt DateTime?
+  metrics Json?
+  @@index([startedAt])
+}
+
+// Bounded, frozen analytical cohort; never a market-wide version or rank reference.
+model PriceObservationStudy {
+ id String @id
+ createdAt DateTime @default(now())
+ plan Json
+ cohort Json
+ maxCycles Int @default(4)
+ intervalHours Int @default(2)
+ nextEligibleAt DateTime
+ active Boolean @default(true)
+ cycles PriceObservationCycle[]
+}
+model PriceObservationCycle {
+ id String @id @default(cuid())
+ studyId String
+ study PriceObservationStudy @relation(fields:[studyId],references:[id])
+ runId String @unique
+ startedAt DateTime
+ completedAt DateTime?
+ prices Json?
+ metrics Json?
+ @@index([studyId,startedAt])
+}

@@ -1,0 +1,27 @@
+
+
+
+    <!-- 없는경우 -->
+    <div class="tr empty">
+        <span class="txt">
+            검색 결과가 없습니다.
+        </span>
+    </div>
+
+<script>
+    $(".btn_preview").click(function () {
+        if($(this).hasClass("active"))
+        {
+            $("#playerPreview").hide();
+        }else{
+            DataCenter.GetPlayerPreview(this, $(this).data("no"));
+        }
+
+    });
+
+    $(document).ready(function () {
+        $(".td_ar_bp .span_bp" + 1).show();
+    });
+
+
+</script>

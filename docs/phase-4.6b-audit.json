@@ -1,0 +1,3017 @@
+{
+  "source": {
+    "observedAt": "2026-09-21T06:33:56.093Z",
+    "guidance": [
+      "데이터는 2시간마다 업데이트되며 집계 결과가 홈페이지에 반영되기까지 상당 시간 소요될 수 있습니다.",
+      "또한 선수마다 갱신 시점에 상이하므로 집계 후 홈페이지 반영되기 전 게임 내 기준가가 갱신될 수 있기에 게임 내 기준가 정보와 모두 일치할 수 없게 됩니다."
+    ],
+    "signals": {
+      "etag": null,
+      "last-modified": null,
+      "cache-control": "private",
+      "age": null,
+      "date": "Mon, 21 Sep 2026 06:33:55 GMT"
+    }
+  },
+  "actual": {
+    "efficiency": [
+      {
+        "executionId": "cmuazet050000tyably6m9ri2",
+        "runId": "cmualiypa0000tyfh10nnw2ax",
+        "reason": "FULL_BUILD",
+        "startedAt": "2026-09-21T08:26:59.285Z",
+        "finishedAt": "2026-09-21T08:30:21.707Z",
+        "stopReason": "REQUEST_BUDGET_EXHAUSTED",
+        "requests": 20,
+        "priceRequests": 19,
+        "policyRequests": 1,
+        "players": 600,
+        "variants": 7800,
+        "newPrices": 7800,
+        "changed": 0,
+        "unchanged": 0,
+        "playersPerRequest": 31.57894736842105,
+        "variantsPerRequest": 410.5263157894737,
+        "newPricesPerRequest": 410.5263157894737,
+        "changedPricesPerRequest": 0,
+        "unchangedPricesPerRequest": 0,
+        "signals": [
+          {
+            "age": null,
+            "date": "Mon, 21 Sep 2026 08:27:10 GMT",
+            "etag": null,
+            "retry-after": null,
+            "cache-control": "private",
+            "last-modified": null
+          }
+        ]
+      },
+      {
+        "executionId": "cmuazt4ry0003tyl2gz5nzl7d",
+        "runId": "cmuazt4ra0000tyl22xfzyjda",
+        "reason": "INCREMENTAL_REFRESH",
+        "startedAt": "2026-09-21T08:38:07.727Z",
+        "finishedAt": "2026-09-21T08:38:29.485Z",
+        "stopReason": null,
+        "requests": 3,
+        "priceRequests": 2,
+        "policyRequests": 1,
+        "players": 274,
+        "variants": 3562,
+        "newPrices": 2741,
+        "changed": 786,
+        "unchanged": 35,
+        "playersPerRequest": 137,
+        "variantsPerRequest": 1781,
+        "newPricesPerRequest": 1370.5,
+        "changedPricesPerRequest": 393,
+        "unchangedPricesPerRequest": 17.5,
+        "signals": [
+          {
+            "age": null,
+            "date": "Mon, 21 Sep 2026 08:38:18 GMT",
+            "etag": null,
+            "retry-after": null,
+            "cache-control": "private",
+            "last-modified": null
+          }
+        ]
+      }
+    ],
+    "counts": {
+      "player": 88359,
+      "season": 153,
+      "playerVariant": 29250,
+      "playerPriceSnapshot": 30106,
+      "priceSourceSnapshot": 31,
+      "playerPriceRankSnapshot": 0,
+      "priceCollectionRun": 3,
+      "pricedPlayers": 2250
+    },
+    "missing": {
+      "spid": "868001109",
+      "name": "파올로 말디니"
+    }
+  },
+  "cost": {
+    "policyNotice": "No explicit safe request rate confirmed",
+    "full": {
+      "dryRun": true,
+      "players": 88359,
+      "classes": 153,
+      "enhancementChecks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "initialSegments": 153,
+      "metadataPriceUpperBound": 1148667,
+      "validVariants": null,
+      "requests": {
+        "metadataBasedLowerBound": 533,
+        "modelEstimate": 1173,
+        "absoluteOvrTreeBound": 61353
+      },
+      "estimatedDelaySeconds": 12650,
+      "note": "Estimates assume metadata listings; distribution, empty ranges and retries change actual cost. Valid combinations are discovered, never pre-created.",
+      "minimumBudgetHours": 21.083333333333332,
+      "estimatedPriceRequests": 1201,
+      "knownExactCompletedClasses": 14,
+      "estimatedPolicyGets": 64,
+      "estimatedTotalRequests": 1265,
+      "estimatedPlayersPerPriceRequest": 73.57119067443797,
+      "estimatedVariantsPerPriceRequest": 956.4254787676936,
+      "minimumActiveHours": 3.513888888888889,
+      "minimumBudgetDays": 10.541666666666666,
+      "requestsPerHourCap": 60,
+      "requestsPerDayCap": 120,
+      "estimatedRemainingPriceRequests": 1142,
+      "exactFullCostKnown": false
+    },
+    "everyTwoHours": {
+      "crawlsPerDay": 12,
+      "priceRequestsPerDay": 14412,
+      "totalRequestsPerDay": 15180,
+      "totalRequestsPer30Days": 455400,
+      "use": false
+    },
+    "incremental": {
+      "skippedFreshClasses": 16,
+      "deferredToFullBuildClasses": 137,
+      "dueClasses": 0,
+      "hotClasses": [
+        866,
+        877
+      ],
+      "warmClasses": [
+        877,
+        100
+      ],
+      "tierCosts": [
+        {
+          "tier": "HOT",
+          "classes": 2,
+          "requestsPerSweep": 2,
+          "requestsPerDay": 8
+        },
+        {
+          "tier": "WARM",
+          "classes": 1,
+          "requestsPerSweep": 1,
+          "requestsPerDay": 0.5
+        },
+        {
+          "tier": "COLD",
+          "classes": 150,
+          "requestsPerSweep": 1175,
+          "requestsPerDay": 83.9285714285713
+        }
+      ],
+      "unconstrainedRequestsPerDay": 92.4285714285713,
+      "requestBudgetPerDay": 120,
+      "rows": [
+        {
+          "seasonId": 866,
+          "tier": "HOT",
+          "priority": 300,
+          "refreshHours": 6,
+          "due": false,
+          "lastObserved": 1789979898818,
+          "reason": "PUBLISHED_PRODUCT_PACK",
+          "deferredToFullBuild": false,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 877,
+          "tier": "HOT",
+          "priority": 300,
+          "refreshHours": 6,
+          "due": false,
+          "lastObserved": 1789979908760,
+          "reason": "PUBLISHED_PRODUCT_PACK",
+          "deferredToFullBuild": false,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 100,
+          "tier": "WARM",
+          "priority": 200,
+          "refreshHours": 48,
+          "due": false,
+          "lastObserved": 1789955903544,
+          "reason": "TOP_OBSERVED_CLASS_PRICE",
+          "deferredToFullBuild": false,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 214,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 3,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 215,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 216,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 3,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 217,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 3,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 218,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 219,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 220,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 221,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 5,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 222,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 225,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 5,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 230,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 231,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 233,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 234,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 5,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 236,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 237,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 3,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 238,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 239,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 240,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 241,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 242,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 5,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 246,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 3,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 247,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 249,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 250,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 251,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 3,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 252,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 253,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 5,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 254,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 256,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 3,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 257,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 258,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 259,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 260,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 5,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 261,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 262,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 264,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 265,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 267,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 268,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 270,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 272,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 273,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 5,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 274,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 276,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 277,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 278,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 279,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 280,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 5,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 281,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 283,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 284,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 287,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 289,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 290,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 291,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 3,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 293,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 294,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 295,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 297,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 298,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 300,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 267,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 317,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 47,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 318,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 77,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 319,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 83,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 320,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 69,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 321,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 77,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 322,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 73,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 323,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 75,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 324,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 73,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 500,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 5,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 501,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 19,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 502,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 19,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 503,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 13,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 504,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 3,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 506,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 7,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 507,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 3,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 508,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 9,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 510,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 511,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 9,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 512,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 513,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 7,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 514,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 515,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 7,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 516,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 517,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 7,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 518,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 596,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 801,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 802,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 804,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 805,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 806,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 807,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 808,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 810,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 5,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 811,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 812,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 813,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 814,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 815,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 5,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 818,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 820,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 821,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 825,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 826,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 3,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 827,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 828,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 829,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 830,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 831,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 832,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 834,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 5,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 835,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 836,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 839,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 840,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 844,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 845,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 846,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 848,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 3,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 849,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 850,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 851,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 3,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 852,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 853,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 854,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 855,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 856,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 5,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 858,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 861,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 862,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 863,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 7,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 864,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 867,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 868,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 879,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": null,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": true,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 101,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": 1789955906449,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": false,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 110,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": 1789955909478,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": false,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 111,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": 1789955912437,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": false,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 113,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": 1789955915551,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": false,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 114,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": 1789955918470,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": false,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 201,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": 1789955927455,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": false,
+          "estimatedRequests": 6,
+          "initialQueries": 6
+        },
+        {
+          "seasonId": 202,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": 1789955954433,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": false,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 206,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": 1789956598323,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": false,
+          "estimatedRequests": 7,
+          "initialQueries": 7
+        },
+        {
+          "seasonId": 207,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": 1789956637283,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": false,
+          "estimatedRequests": 6,
+          "initialQueries": 6
+        },
+        {
+          "seasonId": 210,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": 1789979270411,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": false,
+          "estimatedRequests": 6,
+          "initialQueries": 6
+        },
+        {
+          "seasonId": 211,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": 1789979360690,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": false,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 212,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": 1789979370415,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": false,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        },
+        {
+          "seasonId": 213,
+          "tier": "COLD",
+          "priority": 100,
+          "refreshHours": 336,
+          "due": false,
+          "lastObserved": 1789979380382,
+          "reason": "LOWER_PRIORITY_CLASS",
+          "deferredToFullBuild": false,
+          "estimatedRequests": 1,
+          "initialQueries": 1
+        }
+      ]
+    },
+    "execution": {
+      "id": "cmuazet050000tyably6m9ri2",
+      "runId": "cmualiypa0000tyfh10nnw2ax",
+      "reason": "FULL_BUILD",
+      "startedAt": "2026-09-21T08:26:59.285Z",
+      "finishedAt": "2026-09-21T08:30:21.707Z",
+      "stopReason": "REQUEST_BUDGET_EXHAUSTED"
+    },
+    "safety": {
+      "enabled": true,
+      "circuit": "CLOSED",
+      "circuitUntil": null,
+      "circuitReason": null,
+      "active": false,
+      "counts": {
+        "minute": 0,
+        "hour": 23,
+        "day": 66,
+        "run": 20
+      },
+      "remaining": {
+        "minute": 6,
+        "hour": 37,
+        "day": 54,
+        "run": 0
+      }
+    },
+    "market": {
+      "coverage": "2.24",
+      "players": 1976,
+      "variants": 25688,
+      "requests": 59,
+      "playersPerRequest": 33.49152542372882,
+      "variantsPerRequest": 435.3898305084746,
+      "completedClasses": 14,
+      "remainingClasses": 139,
+      "pendingSegments": 140
+    },
+    "classes": [
+      {
+        "seasonId": 100,
+        "observedRequests": 1,
+        "complete": true,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 101,
+        "observedRequests": 1,
+        "complete": true,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 110,
+        "observedRequests": 1,
+        "complete": true,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 111,
+        "observedRequests": 1,
+        "complete": true,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 113,
+        "observedRequests": 1,
+        "complete": true,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 114,
+        "observedRequests": 1,
+        "complete": true,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 201,
+        "observedRequests": 11,
+        "complete": true,
+        "estimatedRequests": 11
+      },
+      {
+        "seasonId": 202,
+        "observedRequests": 1,
+        "complete": true,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 206,
+        "observedRequests": 13,
+        "complete": true,
+        "estimatedRequests": 13
+      },
+      {
+        "seasonId": 207,
+        "observedRequests": 11,
+        "complete": true,
+        "estimatedRequests": 11
+      },
+      {
+        "seasonId": 210,
+        "observedRequests": 11,
+        "complete": true,
+        "estimatedRequests": 11
+      },
+      {
+        "seasonId": 211,
+        "observedRequests": 1,
+        "complete": true,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 212,
+        "observedRequests": 1,
+        "complete": true,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 213,
+        "observedRequests": 1,
+        "complete": true,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 214,
+        "observedRequests": 3,
+        "complete": false,
+        "estimatedRequests": 5
+      },
+      {
+        "seasonId": 215,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 216,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 3
+      },
+      {
+        "seasonId": 217,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 3
+      },
+      {
+        "seasonId": 218,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 219,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 220,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 221,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 5
+      },
+      {
+        "seasonId": 222,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 225,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 5
+      },
+      {
+        "seasonId": 230,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 231,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 233,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 234,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 5
+      },
+      {
+        "seasonId": 236,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 237,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 3
+      },
+      {
+        "seasonId": 238,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 239,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 240,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 241,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 242,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 5
+      },
+      {
+        "seasonId": 246,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 3
+      },
+      {
+        "seasonId": 247,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 249,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 250,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 251,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 3
+      },
+      {
+        "seasonId": 252,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 253,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 5
+      },
+      {
+        "seasonId": 254,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 256,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 3
+      },
+      {
+        "seasonId": 257,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 258,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 259,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 260,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 5
+      },
+      {
+        "seasonId": 261,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 262,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 264,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 265,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 267,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 268,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 270,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 272,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 273,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 5
+      },
+      {
+        "seasonId": 274,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 276,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 277,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 278,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 279,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 280,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 5
+      },
+      {
+        "seasonId": 281,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 283,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 284,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 287,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 289,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 290,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 291,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 3
+      },
+      {
+        "seasonId": 293,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 294,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 295,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 297,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 298,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 300,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 267
+      },
+      {
+        "seasonId": 317,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 47
+      },
+      {
+        "seasonId": 318,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 77
+      },
+      {
+        "seasonId": 319,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 83
+      },
+      {
+        "seasonId": 320,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 69
+      },
+      {
+        "seasonId": 321,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 77
+      },
+      {
+        "seasonId": 322,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 73
+      },
+      {
+        "seasonId": 323,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 75
+      },
+      {
+        "seasonId": 324,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 73
+      },
+      {
+        "seasonId": 500,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 5
+      },
+      {
+        "seasonId": 501,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 19
+      },
+      {
+        "seasonId": 502,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 19
+      },
+      {
+        "seasonId": 503,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 13
+      },
+      {
+        "seasonId": 504,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 3
+      },
+      {
+        "seasonId": 506,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 7
+      },
+      {
+        "seasonId": 507,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 3
+      },
+      {
+        "seasonId": 508,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 9
+      },
+      {
+        "seasonId": 510,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 511,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 9
+      },
+      {
+        "seasonId": 512,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 513,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 7
+      },
+      {
+        "seasonId": 514,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 515,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 7
+      },
+      {
+        "seasonId": 516,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 517,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 7
+      },
+      {
+        "seasonId": 518,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 596,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 801,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 802,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 804,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 805,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 806,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 807,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 808,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 810,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 5
+      },
+      {
+        "seasonId": 811,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 812,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 813,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 814,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 815,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 5
+      },
+      {
+        "seasonId": 818,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 820,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 821,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 825,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 826,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 3
+      },
+      {
+        "seasonId": 827,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 828,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 829,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 830,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 831,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 832,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 834,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 5
+      },
+      {
+        "seasonId": 835,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 836,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 839,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 840,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 844,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 845,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 846,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 848,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 3
+      },
+      {
+        "seasonId": 849,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 850,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 851,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 3
+      },
+      {
+        "seasonId": 852,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 853,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 854,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 855,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 856,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 5
+      },
+      {
+        "seasonId": 858,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 861,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 862,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 863,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 7
+      },
+      {
+        "seasonId": 864,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 866,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 867,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 868,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 877,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      },
+      {
+        "seasonId": 879,
+        "observedRequests": 0,
+        "complete": false,
+        "estimatedRequests": 1
+      }
+    ]
+  },
+  "cacheRepeat": {
+    "status": "SKIP_FRESH",
+    "skippedFreshClasses": 16,
+    "deferredToFullBuildClasses": 137,
+    "dueClasses": 0,
+    "hotClasses": [
+      866,
+      877
+    ],
+    "warmClasses": [
+      877,
+      100
+    ],
+    "tierCosts": [
+      {
+        "tier": "HOT",
+        "classes": 2,
+        "requestsPerSweep": 2,
+        "requestsPerDay": 8
+      },
+      {
+        "tier": "WARM",
+        "classes": 1,
+        "requestsPerSweep": 1,
+        "requestsPerDay": 0.5
+      },
+      {
+        "tier": "COLD",
+        "classes": 150,
+        "requestsPerSweep": 1175,
+        "requestsPerDay": 83.9285714285713
+      }
+    ],
+    "unconstrainedRequestsPerDay": 92.4285714285713,
+    "requestBudgetPerDay": 120
+  }
+}

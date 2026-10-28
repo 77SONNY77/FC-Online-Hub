@@ -1,0 +1,5 @@
+CREATE TABLE "PriceCollectorState" ("id" TEXT PRIMARY KEY,"enabled" BOOLEAN NOT NULL DEFAULT true,"leaseToken" TEXT,"leaseExpiresAt" TIMESTAMP(3),"circuitUntil" TIMESTAMP(3),"circuitReason" TEXT,"failures" INTEGER NOT NULL DEFAULT 0);
+CREATE TABLE "PriceCollectorExecution" ("id" TEXT PRIMARY KEY,"runId" TEXT NOT NULL,"reason" TEXT NOT NULL,"startedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,"finishedAt" TIMESTAMP(3),"stopReason" TEXT);
+CREATE TABLE "PriceCollectorRequest" ("id" TEXT PRIMARY KEY,"sourceId" TEXT NOT NULL REFERENCES "PriceCollectorState"("id"),"executionId" TEXT NOT NULL REFERENCES "PriceCollectorExecution"("id"),"requestedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,"finishedAt" TIMESTAMP(3),"url" TEXT NOT NULL,"statusCode" INTEGER,"errorCode" TEXT,"signals" JSONB);
+CREATE INDEX "PriceCollectorRequest_sourceId_requestedAt_idx" ON "PriceCollectorRequest"("sourceId","requestedAt");
+CREATE INDEX "PriceCollectorRequest_executionId_idx" ON "PriceCollectorRequest"("executionId");

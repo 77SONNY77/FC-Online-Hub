@@ -1,0 +1,137 @@
+{
+  "data": [
+    {
+      "id": "fc-300-20260919",
+      "fcAmount": "300",
+      "bonusFc": "0",
+      "totalFc": "300",
+      "metadata": {
+        "datasetId": "official-fc-units-20260919",
+        "datasetVersion": 1,
+        "source": "OFFICIAL_WEB",
+        "sourceName": "FC Online 공식 웹 상점 · 일반 FC",
+        "sourceUrl": "https://shop.fconline.nexon.com/",
+        "sourceNotes": "2026-09-19 FC 구매 탭의 일반 FC 수량과 추가 FC를 확인했습니다. 여기서는 동일 단위를 가상으로 지급하며 실제 결제·멤버십·쿠폰·현금 가격은 적용하지 않습니다.",
+        "verificationStatus": "VERIFIED",
+        "verified": true,
+        "verifiedAt": "2026-09-19T06:50:12.849Z",
+        "lastUpdatedAt": "2026-09-19T06:50:12.850Z",
+        "dataType": "OFFICIAL"
+      }
+    },
+    {
+      "id": "fc-500-20260919",
+      "fcAmount": "500",
+      "bonusFc": "10",
+      "totalFc": "510",
+      "metadata": {
+        "datasetId": "official-fc-units-20260919",
+        "datasetVersion": 1,
+        "source": "OFFICIAL_WEB",
+        "sourceName": "FC Online 공식 웹 상점 · 일반 FC",
+        "sourceUrl": "https://shop.fconline.nexon.com/",
+        "sourceNotes": "2026-09-19 FC 구매 탭의 일반 FC 수량과 추가 FC를 확인했습니다. 여기서는 동일 단위를 가상으로 지급하며 실제 결제·멤버십·쿠폰·현금 가격은 적용하지 않습니다.",
+        "verificationStatus": "VERIFIED",
+        "verified": true,
+        "verifiedAt": "2026-09-19T06:50:12.849Z",
+        "lastUpdatedAt": "2026-09-19T06:50:12.850Z",
+        "dataType": "OFFICIAL"
+      }
+    },
+    {
+      "id": "fc-1000-20260919",
+      "fcAmount": "1000",
+      "bonusFc": "40",
+      "totalFc": "1040",
+      "metadata": {
+        "datasetId": "official-fc-units-20260919",
+        "datasetVersion": 1,
+        "source": "OFFICIAL_WEB",
+        "sourceName": "FC Online 공식 웹 상점 · 일반 FC",
+        "sourceUrl": "https://shop.fconline.nexon.com/",
+        "sourceNotes": "2026-09-19 FC 구매 탭의 일반 FC 수량과 추가 FC를 확인했습니다. 여기서는 동일 단위를 가상으로 지급하며 실제 결제·멤버십·쿠폰·현금 가격은 적용하지 않습니다.",
+        "verificationStatus": "VERIFIED",
+        "verified": true,
+        "verifiedAt": "2026-09-19T06:50:12.849Z",
+        "lastUpdatedAt": "2026-09-19T06:50:12.850Z",
+        "dataType": "OFFICIAL"
+      }
+    },
+    {
+      "id": "fc-3000-20260919",
+      "fcAmount": "3000",
+      "bonusFc": "180",
+      "totalFc": "3180",
+      "metadata": {
+        "datasetId": "official-fc-units-20260919",
+        "datasetVersion": 1,
+        "source": "OFFICIAL_WEB",
+        "sourceName": "FC Online 공식 웹 상점 · 일반 FC",
+        "sourceUrl": "https://shop.fconline.nexon.com/",
+        "sourceNotes": "2026-09-19 FC 구매 탭의 일반 FC 수량과 추가 FC를 확인했습니다. 여기서는 동일 단위를 가상으로 지급하며 실제 결제·멤버십·쿠폰·현금 가격은 적용하지 않습니다.",
+        "verificationStatus": "VERIFIED",
+        "verified": true,
+        "verifiedAt": "2026-09-19T06:50:12.849Z",
+        "lastUpdatedAt": "2026-09-19T06:50:12.850Z",
+        "dataType": "OFFICIAL"
+      }
+    },
+    {
+      "id": "fc-5000-20260919",
+      "fcAmount": "5000",
+      "bonusFc": "400",
+      "totalFc": "5400",
+      "metadata": {
+        "datasetId": "official-fc-units-20260919",
+        "datasetVersion": 1,
+        "source": "OFFICIAL_WEB",
+        "sourceName": "FC Online 공식 웹 상점 · 일반 FC",
+        "sourceUrl": "https://shop.fconline.nexon.com/",
+        "sourceNotes": "2026-09-19 FC 구매 탭의 일반 FC 수량과 추가 FC를 확인했습니다. 여기서는 동일 단위를 가상으로 지급하며 실제 결제·멤버십·쿠폰·현금 가격은 적용하지 않습니다.",
+        "verificationStatus": "VERIFIED",
+        "verified": true,
+        "verifiedAt": "2026-09-19T06:50:12.849Z",
+        "lastUpdatedAt": "2026-09-19T06:50:12.850Z",
+        "dataType": "OFFICIAL"
+      }
+    },
+    {
+      "id": "fc-10000-20260919",
+      "fcAmount": "10000",
+      "bonusFc": "1000",
+      "totalFc": "11000",
+      "metadata": {
+        "datasetId": "official-fc-units-20260919",
+        "datasetVersion": 1,
+        "source": "OFFICIAL_WEB",
+        "sourceName": "FC Online 공식 웹 상점 · 일반 FC",
+        "sourceUrl": "https://shop.fconline.nexon.com/",
+        "sourceNotes": "2026-09-19 FC 구매 탭의 일반 FC 수량과 추가 FC를 확인했습니다. 여기서는 동일 단위를 가상으로 지급하며 실제 결제·멤버십·쿠폰·현금 가격은 적용하지 않습니다.",
+        "verificationStatus": "VERIFIED",
+        "verified": true,
+        "verifiedAt": "2026-09-19T06:50:12.849Z",
+        "lastUpdatedAt": "2026-09-19T06:50:12.850Z",
+        "dataType": "OFFICIAL"
+      }
+    },
+    {
+      "id": "fc-20000-20260919",
+      "fcAmount": "20000",
+      "bonusFc": "2400",
+      "totalFc": "22400",
+      "metadata": {
+        "datasetId": "official-fc-units-20260919",
+        "datasetVersion": 1,
+        "source": "OFFICIAL_WEB",
+        "sourceName": "FC Online 공식 웹 상점 · 일반 FC",
+        "sourceUrl": "https://shop.fconline.nexon.com/",
+        "sourceNotes": "2026-09-19 FC 구매 탭의 일반 FC 수량과 추가 FC를 확인했습니다. 여기서는 동일 단위를 가상으로 지급하며 실제 결제·멤버십·쿠폰·현금 가격은 적용하지 않습니다.",
+        "verificationStatus": "VERIFIED",
+        "verified": true,
+        "verifiedAt": "2026-09-19T06:50:12.849Z",
+        "lastUpdatedAt": "2026-09-19T06:50:12.850Z",
+        "dataType": "OFFICIAL"
+      }
+    }
+  ]
+}

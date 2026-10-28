@@ -1,0 +1,8 @@
+{
+  "sourceUrl": "https://fconline.nexon.com/datacenter/PlayerList",
+  "acquisition": "NORMAL_BROWSER_XHR",
+  "observedAt": "2026-09-20T10:24:04.370Z",
+  "scope": "First two player containers extracted from the observed 113-player UC response; fixture is not a complete candidate set",
+  "fullResponseHash": "5f85e0c775e0b14518daff679e3c80da8ff196566d55d30d637c31c5bb6070b5",
+  "fixtureHash": "18b2004a8777242adf9c80a2f566de81f880d1833359290ff34f98003704ee3c"
+}

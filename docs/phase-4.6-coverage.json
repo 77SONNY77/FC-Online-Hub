@@ -1,0 +1,3103 @@
+{
+  "runId": "cmualiypa0000tyfh10nnw2ax",
+  "status": "PAUSED",
+  "source": "OFFICIAL_WEB",
+  "collectionStartedAt": "2026-09-21T01:58:19.932Z",
+  "collectionCompletedAt": null,
+  "totalPlayers": 88359,
+  "totalClasses": 153,
+  "playersChecked": 1376,
+  "playersWithPrice": 1376,
+  "validPricedVariants": 17888,
+  "variantsChecked": 19264,
+  "notAvailable": 1376,
+  "uncheckedMetadataPlayers": 86983,
+  "metadataPriceCoveragePercent": "1.56",
+  "fullCoverageVerified": false,
+  "plannedSegments": 185,
+  "completedSegments": 24,
+  "splitSegments": 16,
+  "pendingSegments": 145,
+  "failedSegments": 0,
+  "requests": 40,
+  "successfulRequests": 40,
+  "failedRequests": 0,
+  "retryCount": 0,
+  "runtimeSeconds": 752.769,
+  "requestsPerSecond": 0.053137150971944914,
+  "averageResponseMs": 891.85,
+  "observations": 17888,
+  "duplicateObservations": 0,
+  "observedWindow": {
+    "start": "2026-09-21T01:58:23.544Z",
+    "end": "2026-09-21T02:10:55.360Z"
+  },
+  "classes": [
+    {
+      "seasonId": 100,
+      "totalPlayers": 126,
+      "playersChecked": 126,
+      "playersWithPrice": 126,
+      "variantsWithPrice": 1638,
+      "notListed": 0,
+      "segmentCoveragePercent": "100.00",
+      "metadataPriceCoveragePercent": "100.00",
+      "complete": true
+    },
+    {
+      "seasonId": 101,
+      "totalPlayers": 145,
+      "playersChecked": 145,
+      "playersWithPrice": 145,
+      "variantsWithPrice": 1885,
+      "notListed": 0,
+      "segmentCoveragePercent": "100.00",
+      "metadataPriceCoveragePercent": "100.00",
+      "complete": true
+    },
+    {
+      "seasonId": 110,
+      "totalPlayers": 125,
+      "playersChecked": 125,
+      "playersWithPrice": 125,
+      "variantsWithPrice": 1625,
+      "notListed": 0,
+      "segmentCoveragePercent": "100.00",
+      "metadataPriceCoveragePercent": "100.00",
+      "complete": true
+    },
+    {
+      "seasonId": 111,
+      "totalPlayers": 14,
+      "playersChecked": 14,
+      "playersWithPrice": 14,
+      "variantsWithPrice": 182,
+      "notListed": 0,
+      "segmentCoveragePercent": "100.00",
+      "metadataPriceCoveragePercent": "100.00",
+      "complete": true
+    },
+    {
+      "seasonId": 113,
+      "totalPlayers": 26,
+      "playersChecked": 26,
+      "playersWithPrice": 26,
+      "variantsWithPrice": 338,
+      "notListed": 0,
+      "segmentCoveragePercent": "100.00",
+      "metadataPriceCoveragePercent": "100.00",
+      "complete": true
+    },
+    {
+      "seasonId": 114,
+      "totalPlayers": 2,
+      "playersChecked": 2,
+      "playersWithPrice": 2,
+      "variantsWithPrice": 26,
+      "notListed": 0,
+      "segmentCoveragePercent": "100.00",
+      "metadataPriceCoveragePercent": "100.00",
+      "complete": true
+    },
+    {
+      "seasonId": 201,
+      "totalPlayers": 286,
+      "playersChecked": 286,
+      "playersWithPrice": 286,
+      "variantsWithPrice": 3718,
+      "notListed": 0,
+      "segmentCoveragePercent": "100.00",
+      "metadataPriceCoveragePercent": "100.00",
+      "complete": true
+    },
+    {
+      "seasonId": 202,
+      "totalPlayers": 47,
+      "playersChecked": 47,
+      "playersWithPrice": 47,
+      "variantsWithPrice": 611,
+      "notListed": 0,
+      "segmentCoveragePercent": "100.00",
+      "metadataPriceCoveragePercent": "100.00",
+      "complete": true
+    },
+    {
+      "seasonId": 206,
+      "totalPlayers": 515,
+      "playersChecked": 515,
+      "playersWithPrice": 515,
+      "variantsWithPrice": 6695,
+      "notListed": 0,
+      "segmentCoveragePercent": "100.00",
+      "metadataPriceCoveragePercent": "100.00",
+      "complete": true
+    },
+    {
+      "seasonId": 207,
+      "totalPlayers": 321,
+      "playersChecked": 90,
+      "playersWithPrice": 90,
+      "variantsWithPrice": 1170,
+      "notListed": null,
+      "segmentCoveragePercent": "81.82",
+      "metadataPriceCoveragePercent": "28.04",
+      "complete": false
+    },
+    {
+      "seasonId": 210,
+      "totalPlayers": 339,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 211,
+      "totalPlayers": 12,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 212,
+      "totalPlayers": 11,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 213,
+      "totalPlayers": 7,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 214,
+      "totalPlayers": 292,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 215,
+      "totalPlayers": 184,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 216,
+      "totalPlayers": 251,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 217,
+      "totalPlayers": 280,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 218,
+      "totalPlayers": 112,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 219,
+      "totalPlayers": 103,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 220,
+      "totalPlayers": 12,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 221,
+      "totalPlayers": 397,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 222,
+      "totalPlayers": 43,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 225,
+      "totalPlayers": 335,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 230,
+      "totalPlayers": 161,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 231,
+      "totalPlayers": 175,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 233,
+      "totalPlayers": 104,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 234,
+      "totalPlayers": 381,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 236,
+      "totalPlayers": 7,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 237,
+      "totalPlayers": 228,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 238,
+      "totalPlayers": 75,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 239,
+      "totalPlayers": 45,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 240,
+      "totalPlayers": 12,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 241,
+      "totalPlayers": 58,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 242,
+      "totalPlayers": 396,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 246,
+      "totalPlayers": 220,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 247,
+      "totalPlayers": 18,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 249,
+      "totalPlayers": 19,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 250,
+      "totalPlayers": 161,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 251,
+      "totalPlayers": 220,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 252,
+      "totalPlayers": 163,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 253,
+      "totalPlayers": 325,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 254,
+      "totalPlayers": 17,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 256,
+      "totalPlayers": 246,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 257,
+      "totalPlayers": 50,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 258,
+      "totalPlayers": 12,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 259,
+      "totalPlayers": 68,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 260,
+      "totalPlayers": 378,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 261,
+      "totalPlayers": 19,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 262,
+      "totalPlayers": 75,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 264,
+      "totalPlayers": 106,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 265,
+      "totalPlayers": 107,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 267,
+      "totalPlayers": 160,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 268,
+      "totalPlayers": 95,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 270,
+      "totalPlayers": 121,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 272,
+      "totalPlayers": 193,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 273,
+      "totalPlayers": 373,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 274,
+      "totalPlayers": 18,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 276,
+      "totalPlayers": 85,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 277,
+      "totalPlayers": 50,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 278,
+      "totalPlayers": 12,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 279,
+      "totalPlayers": 88,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 280,
+      "totalPlayers": 360,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 281,
+      "totalPlayers": 18,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 283,
+      "totalPlayers": 185,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 284,
+      "totalPlayers": 152,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 287,
+      "totalPlayers": 161,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 289,
+      "totalPlayers": 117,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 290,
+      "totalPlayers": 9,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 291,
+      "totalPlayers": 210,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 293,
+      "totalPlayers": 34,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 294,
+      "totalPlayers": 22,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 295,
+      "totalPlayers": 59,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 297,
+      "totalPlayers": 32,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 298,
+      "totalPlayers": 40,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 300,
+      "totalPlayers": 20048,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 317,
+      "totalPlayers": 3490,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 318,
+      "totalPlayers": 5775,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 319,
+      "totalPlayers": 6291,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 320,
+      "totalPlayers": 5161,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 321,
+      "totalPlayers": 5848,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 322,
+      "totalPlayers": 5435,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 323,
+      "totalPlayers": 5599,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 324,
+      "totalPlayers": 5476,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 500,
+      "totalPlayers": 349,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 501,
+      "totalPlayers": 1398,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 502,
+      "totalPlayers": 1398,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 503,
+      "totalPlayers": 998,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 504,
+      "totalPlayers": 235,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 506,
+      "totalPlayers": 522,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 507,
+      "totalPlayers": 207,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 508,
+      "totalPlayers": 654,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 510,
+      "totalPlayers": 148,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 511,
+      "totalPlayers": 674,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 512,
+      "totalPlayers": 189,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 513,
+      "totalPlayers": 492,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 514,
+      "totalPlayers": 132,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 515,
+      "totalPlayers": 497,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 516,
+      "totalPlayers": 132,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 517,
+      "totalPlayers": 500,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 518,
+      "totalPlayers": 132,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 596,
+      "totalPlayers": 79,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 801,
+      "totalPlayers": 14,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 802,
+      "totalPlayers": 135,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 804,
+      "totalPlayers": 110,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 805,
+      "totalPlayers": 55,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 806,
+      "totalPlayers": 28,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 807,
+      "totalPlayers": 18,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 808,
+      "totalPlayers": 67,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 810,
+      "totalPlayers": 354,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 811,
+      "totalPlayers": 14,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 812,
+      "totalPlayers": 1,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 813,
+      "totalPlayers": 34,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 814,
+      "totalPlayers": 134,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 815,
+      "totalPlayers": 410,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 818,
+      "totalPlayers": 16,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 820,
+      "totalPlayers": 160,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 821,
+      "totalPlayers": 50,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 825,
+      "totalPlayers": 179,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 826,
+      "totalPlayers": 210,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 827,
+      "totalPlayers": 108,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 828,
+      "totalPlayers": 88,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 829,
+      "totalPlayers": 179,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 830,
+      "totalPlayers": 51,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 831,
+      "totalPlayers": 12,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 832,
+      "totalPlayers": 72,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 834,
+      "totalPlayers": 358,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 835,
+      "totalPlayers": 19,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 836,
+      "totalPlayers": 198,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 839,
+      "totalPlayers": 24,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 840,
+      "totalPlayers": 194,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 844,
+      "totalPlayers": 161,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 845,
+      "totalPlayers": 151,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 846,
+      "totalPlayers": 67,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 848,
+      "totalPlayers": 202,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 849,
+      "totalPlayers": 50,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 850,
+      "totalPlayers": 32,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 851,
+      "totalPlayers": 208,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 852,
+      "totalPlayers": 191,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 853,
+      "totalPlayers": 50,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 854,
+      "totalPlayers": 12,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 855,
+      "totalPlayers": 77,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 856,
+      "totalPlayers": 361,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 858,
+      "totalPlayers": 9,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 861,
+      "totalPlayers": 173,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 862,
+      "totalPlayers": 11,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 863,
+      "totalPlayers": 573,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 864,
+      "totalPlayers": 30,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 866,
+      "totalPlayers": 161,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 867,
+      "totalPlayers": 118,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 868,
+      "totalPlayers": 32,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 877,
+      "totalPlayers": 113,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    },
+    {
+      "seasonId": 879,
+      "totalPlayers": 1,
+      "playersChecked": 0,
+      "playersWithPrice": 0,
+      "variantsWithPrice": 0,
+      "notListed": null,
+      "segmentCoveragePercent": "0.00",
+      "metadataPriceCoveragePercent": "0.00",
+      "complete": false
+    }
+  ],
+  "enhancementCoverage": [
+    {
+      "enhancement": 0,
+      "variantsChecked": 1376,
+      "variantsWithPrice": 0,
+      "notAvailable": 1376
+    },
+    {
+      "enhancement": 1,
+      "variantsChecked": 1376,
+      "variantsWithPrice": 1376,
+      "notAvailable": 0
+    },
+    {
+      "enhancement": 2,
+      "variantsChecked": 1376,
+      "variantsWithPrice": 1376,
+      "notAvailable": 0
+    },
+    {
+      "enhancement": 3,
+      "variantsChecked": 1376,
+      "variantsWithPrice": 1376,
+      "notAvailable": 0
+    },
+    {
+      "enhancement": 4,
+      "variantsChecked": 1376,
+      "variantsWithPrice": 1376,
+      "notAvailable": 0
+    },
+    {
+      "enhancement": 5,
+      "variantsChecked": 1376,
+      "variantsWithPrice": 1376,
+      "notAvailable": 0
+    },
+    {
+      "enhancement": 6,
+      "variantsChecked": 1376,
+      "variantsWithPrice": 1376,
+      "notAvailable": 0
+    },
+    {
+      "enhancement": 7,
+      "variantsChecked": 1376,
+      "variantsWithPrice": 1376,
+      "notAvailable": 0
+    },
+    {
+      "enhancement": 8,
+      "variantsChecked": 1376,
+      "variantsWithPrice": 1376,
+      "notAvailable": 0
+    },
+    {
+      "enhancement": 9,
+      "variantsChecked": 1376,
+      "variantsWithPrice": 1376,
+      "notAvailable": 0
+    },
+    {
+      "enhancement": 10,
+      "variantsChecked": 1376,
+      "variantsWithPrice": 1376,
+      "notAvailable": 0
+    },
+    {
+      "enhancement": 11,
+      "variantsChecked": 1376,
+      "variantsWithPrice": 1376,
+      "notAvailable": 0
+    },
+    {
+      "enhancement": 12,
+      "variantsChecked": 1376,
+      "variantsWithPrice": 1376,
+      "notAvailable": 0
+    },
+    {
+      "enhancement": 13,
+      "variantsChecked": 1376,
+      "variantsWithPrice": 1376,
+      "notAvailable": 0
+    }
+  ],
+  "segments": [
+    {
+      "key": "101-0-200",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": 145,
+      "retrievedCount": 145
+    },
+    {
+      "key": "210-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 339,
+      "retrievedCount": null
+    },
+    {
+      "key": "211-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 12,
+      "retrievedCount": null
+    },
+    {
+      "key": "100-0-200",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": 126,
+      "retrievedCount": 126
+    },
+    {
+      "key": "113-0-200",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": 26,
+      "retrievedCount": 26
+    },
+    {
+      "key": "114-0-200",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": 2,
+      "retrievedCount": 2
+    },
+    {
+      "key": "201-0-200",
+      "status": "SPLIT",
+      "error": null,
+      "expectedCount": 286,
+      "retrievedCount": 200
+    },
+    {
+      "key": "206-0-200",
+      "status": "SPLIT",
+      "error": null,
+      "expectedCount": 515,
+      "retrievedCount": 200
+    },
+    {
+      "key": "207-0-200",
+      "status": "SPLIT",
+      "error": null,
+      "expectedCount": 321,
+      "retrievedCount": 200
+    },
+    {
+      "key": "212-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 11,
+      "retrievedCount": null
+    },
+    {
+      "key": "213-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 7,
+      "retrievedCount": null
+    },
+    {
+      "key": "214-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 292,
+      "retrievedCount": null
+    },
+    {
+      "key": "215-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 184,
+      "retrievedCount": null
+    },
+    {
+      "key": "216-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 251,
+      "retrievedCount": null
+    },
+    {
+      "key": "217-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 280,
+      "retrievedCount": null
+    },
+    {
+      "key": "218-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 112,
+      "retrievedCount": null
+    },
+    {
+      "key": "219-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 103,
+      "retrievedCount": null
+    },
+    {
+      "key": "220-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 12,
+      "retrievedCount": null
+    },
+    {
+      "key": "221-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 397,
+      "retrievedCount": null
+    },
+    {
+      "key": "222-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 43,
+      "retrievedCount": null
+    },
+    {
+      "key": "225-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 335,
+      "retrievedCount": null
+    },
+    {
+      "key": "230-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 161,
+      "retrievedCount": null
+    },
+    {
+      "key": "231-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 175,
+      "retrievedCount": null
+    },
+    {
+      "key": "233-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 104,
+      "retrievedCount": null
+    },
+    {
+      "key": "234-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 381,
+      "retrievedCount": null
+    },
+    {
+      "key": "236-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 7,
+      "retrievedCount": null
+    },
+    {
+      "key": "237-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 228,
+      "retrievedCount": null
+    },
+    {
+      "key": "238-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 75,
+      "retrievedCount": null
+    },
+    {
+      "key": "239-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 45,
+      "retrievedCount": null
+    },
+    {
+      "key": "240-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 12,
+      "retrievedCount": null
+    },
+    {
+      "key": "241-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 58,
+      "retrievedCount": null
+    },
+    {
+      "key": "242-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 396,
+      "retrievedCount": null
+    },
+    {
+      "key": "246-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 220,
+      "retrievedCount": null
+    },
+    {
+      "key": "247-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 18,
+      "retrievedCount": null
+    },
+    {
+      "key": "249-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 19,
+      "retrievedCount": null
+    },
+    {
+      "key": "250-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 161,
+      "retrievedCount": null
+    },
+    {
+      "key": "251-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 220,
+      "retrievedCount": null
+    },
+    {
+      "key": "252-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 163,
+      "retrievedCount": null
+    },
+    {
+      "key": "253-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 325,
+      "retrievedCount": null
+    },
+    {
+      "key": "254-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 17,
+      "retrievedCount": null
+    },
+    {
+      "key": "256-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 246,
+      "retrievedCount": null
+    },
+    {
+      "key": "257-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 50,
+      "retrievedCount": null
+    },
+    {
+      "key": "258-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 12,
+      "retrievedCount": null
+    },
+    {
+      "key": "259-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 68,
+      "retrievedCount": null
+    },
+    {
+      "key": "260-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 378,
+      "retrievedCount": null
+    },
+    {
+      "key": "261-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 19,
+      "retrievedCount": null
+    },
+    {
+      "key": "262-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 75,
+      "retrievedCount": null
+    },
+    {
+      "key": "264-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 106,
+      "retrievedCount": null
+    },
+    {
+      "key": "265-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 107,
+      "retrievedCount": null
+    },
+    {
+      "key": "267-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 160,
+      "retrievedCount": null
+    },
+    {
+      "key": "268-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 95,
+      "retrievedCount": null
+    },
+    {
+      "key": "270-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 121,
+      "retrievedCount": null
+    },
+    {
+      "key": "272-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 193,
+      "retrievedCount": null
+    },
+    {
+      "key": "273-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 373,
+      "retrievedCount": null
+    },
+    {
+      "key": "274-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 18,
+      "retrievedCount": null
+    },
+    {
+      "key": "276-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 85,
+      "retrievedCount": null
+    },
+    {
+      "key": "277-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 50,
+      "retrievedCount": null
+    },
+    {
+      "key": "278-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 12,
+      "retrievedCount": null
+    },
+    {
+      "key": "279-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 88,
+      "retrievedCount": null
+    },
+    {
+      "key": "280-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 360,
+      "retrievedCount": null
+    },
+    {
+      "key": "281-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 18,
+      "retrievedCount": null
+    },
+    {
+      "key": "283-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 185,
+      "retrievedCount": null
+    },
+    {
+      "key": "284-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 152,
+      "retrievedCount": null
+    },
+    {
+      "key": "287-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 161,
+      "retrievedCount": null
+    },
+    {
+      "key": "289-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 117,
+      "retrievedCount": null
+    },
+    {
+      "key": "290-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 9,
+      "retrievedCount": null
+    },
+    {
+      "key": "291-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 210,
+      "retrievedCount": null
+    },
+    {
+      "key": "293-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 34,
+      "retrievedCount": null
+    },
+    {
+      "key": "294-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 22,
+      "retrievedCount": null
+    },
+    {
+      "key": "295-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 59,
+      "retrievedCount": null
+    },
+    {
+      "key": "297-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 32,
+      "retrievedCount": null
+    },
+    {
+      "key": "298-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 40,
+      "retrievedCount": null
+    },
+    {
+      "key": "300-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 20048,
+      "retrievedCount": null
+    },
+    {
+      "key": "317-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 3490,
+      "retrievedCount": null
+    },
+    {
+      "key": "318-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 5775,
+      "retrievedCount": null
+    },
+    {
+      "key": "319-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 6291,
+      "retrievedCount": null
+    },
+    {
+      "key": "320-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 5161,
+      "retrievedCount": null
+    },
+    {
+      "key": "321-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 5848,
+      "retrievedCount": null
+    },
+    {
+      "key": "322-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 5435,
+      "retrievedCount": null
+    },
+    {
+      "key": "323-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 5599,
+      "retrievedCount": null
+    },
+    {
+      "key": "324-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 5476,
+      "retrievedCount": null
+    },
+    {
+      "key": "500-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 349,
+      "retrievedCount": null
+    },
+    {
+      "key": "501-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 1398,
+      "retrievedCount": null
+    },
+    {
+      "key": "502-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 1398,
+      "retrievedCount": null
+    },
+    {
+      "key": "503-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 998,
+      "retrievedCount": null
+    },
+    {
+      "key": "504-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 235,
+      "retrievedCount": null
+    },
+    {
+      "key": "506-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 522,
+      "retrievedCount": null
+    },
+    {
+      "key": "507-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 207,
+      "retrievedCount": null
+    },
+    {
+      "key": "508-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 654,
+      "retrievedCount": null
+    },
+    {
+      "key": "510-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 148,
+      "retrievedCount": null
+    },
+    {
+      "key": "511-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 674,
+      "retrievedCount": null
+    },
+    {
+      "key": "512-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 189,
+      "retrievedCount": null
+    },
+    {
+      "key": "513-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 492,
+      "retrievedCount": null
+    },
+    {
+      "key": "514-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 132,
+      "retrievedCount": null
+    },
+    {
+      "key": "515-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 497,
+      "retrievedCount": null
+    },
+    {
+      "key": "516-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 132,
+      "retrievedCount": null
+    },
+    {
+      "key": "517-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 500,
+      "retrievedCount": null
+    },
+    {
+      "key": "518-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 132,
+      "retrievedCount": null
+    },
+    {
+      "key": "596-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 79,
+      "retrievedCount": null
+    },
+    {
+      "key": "801-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 14,
+      "retrievedCount": null
+    },
+    {
+      "key": "802-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 135,
+      "retrievedCount": null
+    },
+    {
+      "key": "804-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 110,
+      "retrievedCount": null
+    },
+    {
+      "key": "805-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 55,
+      "retrievedCount": null
+    },
+    {
+      "key": "806-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 28,
+      "retrievedCount": null
+    },
+    {
+      "key": "807-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 18,
+      "retrievedCount": null
+    },
+    {
+      "key": "808-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 67,
+      "retrievedCount": null
+    },
+    {
+      "key": "810-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 354,
+      "retrievedCount": null
+    },
+    {
+      "key": "811-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 14,
+      "retrievedCount": null
+    },
+    {
+      "key": "812-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 1,
+      "retrievedCount": null
+    },
+    {
+      "key": "813-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 34,
+      "retrievedCount": null
+    },
+    {
+      "key": "814-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 134,
+      "retrievedCount": null
+    },
+    {
+      "key": "815-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 410,
+      "retrievedCount": null
+    },
+    {
+      "key": "818-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 16,
+      "retrievedCount": null
+    },
+    {
+      "key": "820-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 160,
+      "retrievedCount": null
+    },
+    {
+      "key": "821-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 50,
+      "retrievedCount": null
+    },
+    {
+      "key": "825-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 179,
+      "retrievedCount": null
+    },
+    {
+      "key": "826-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 210,
+      "retrievedCount": null
+    },
+    {
+      "key": "827-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 108,
+      "retrievedCount": null
+    },
+    {
+      "key": "828-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 88,
+      "retrievedCount": null
+    },
+    {
+      "key": "829-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 179,
+      "retrievedCount": null
+    },
+    {
+      "key": "830-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 51,
+      "retrievedCount": null
+    },
+    {
+      "key": "831-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 12,
+      "retrievedCount": null
+    },
+    {
+      "key": "832-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 72,
+      "retrievedCount": null
+    },
+    {
+      "key": "834-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 358,
+      "retrievedCount": null
+    },
+    {
+      "key": "835-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 19,
+      "retrievedCount": null
+    },
+    {
+      "key": "836-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 198,
+      "retrievedCount": null
+    },
+    {
+      "key": "839-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 24,
+      "retrievedCount": null
+    },
+    {
+      "key": "840-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 194,
+      "retrievedCount": null
+    },
+    {
+      "key": "844-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 161,
+      "retrievedCount": null
+    },
+    {
+      "key": "845-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 151,
+      "retrievedCount": null
+    },
+    {
+      "key": "846-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 67,
+      "retrievedCount": null
+    },
+    {
+      "key": "848-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 202,
+      "retrievedCount": null
+    },
+    {
+      "key": "849-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 50,
+      "retrievedCount": null
+    },
+    {
+      "key": "850-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 32,
+      "retrievedCount": null
+    },
+    {
+      "key": "851-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 208,
+      "retrievedCount": null
+    },
+    {
+      "key": "852-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 191,
+      "retrievedCount": null
+    },
+    {
+      "key": "853-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 50,
+      "retrievedCount": null
+    },
+    {
+      "key": "854-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 12,
+      "retrievedCount": null
+    },
+    {
+      "key": "855-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 77,
+      "retrievedCount": null
+    },
+    {
+      "key": "856-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 361,
+      "retrievedCount": null
+    },
+    {
+      "key": "858-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 9,
+      "retrievedCount": null
+    },
+    {
+      "key": "861-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 173,
+      "retrievedCount": null
+    },
+    {
+      "key": "862-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 11,
+      "retrievedCount": null
+    },
+    {
+      "key": "863-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 573,
+      "retrievedCount": null
+    },
+    {
+      "key": "864-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 30,
+      "retrievedCount": null
+    },
+    {
+      "key": "866-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 161,
+      "retrievedCount": null
+    },
+    {
+      "key": "867-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 118,
+      "retrievedCount": null
+    },
+    {
+      "key": "868-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 32,
+      "retrievedCount": null
+    },
+    {
+      "key": "877-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 113,
+      "retrievedCount": null
+    },
+    {
+      "key": "879-0-200",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": 1,
+      "retrievedCount": null
+    },
+    {
+      "key": "110-0-200",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": 125,
+      "retrievedCount": 125
+    },
+    {
+      "key": "201-101-200",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 0
+    },
+    {
+      "key": "201-51-75",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 71
+    },
+    {
+      "key": "201-76-100",
+      "status": "SPLIT",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 200
+    },
+    {
+      "key": "201-76-88",
+      "status": "SPLIT",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 200
+    },
+    {
+      "key": "111-0-200",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": 14,
+      "retrievedCount": 14
+    },
+    {
+      "key": "201-0-100",
+      "status": "SPLIT",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 200
+    },
+    {
+      "key": "201-83-88",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 70
+    },
+    {
+      "key": "201-0-50",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 0
+    },
+    {
+      "key": "201-51-100",
+      "status": "SPLIT",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 200
+    },
+    {
+      "key": "201-76-82",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 131
+    },
+    {
+      "key": "201-89-100",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 14
+    },
+    {
+      "key": "202-0-200",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": 47,
+      "retrievedCount": 47
+    },
+    {
+      "key": "206-0-100",
+      "status": "SPLIT",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 200
+    },
+    {
+      "key": "206-51-100",
+      "status": "SPLIT",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 200
+    },
+    {
+      "key": "206-83-88",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 168
+    },
+    {
+      "key": "206-89-100",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 17
+    },
+    {
+      "key": "207-0-100",
+      "status": "SPLIT",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 200
+    },
+    {
+      "key": "207-51-100",
+      "status": "SPLIT",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 200
+    },
+    {
+      "key": "206-0-50",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 0
+    },
+    {
+      "key": "206-101-200",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 0
+    },
+    {
+      "key": "206-51-75",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 72
+    },
+    {
+      "key": "206-76-100",
+      "status": "SPLIT",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 200
+    },
+    {
+      "key": "206-76-88",
+      "status": "SPLIT",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 200
+    },
+    {
+      "key": "206-76-82",
+      "status": "SPLIT",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 200
+    },
+    {
+      "key": "206-76-79",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 129
+    },
+    {
+      "key": "206-80-82",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 129
+    },
+    {
+      "key": "207-0-50",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 0
+    },
+    {
+      "key": "207-101-200",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 0
+    },
+    {
+      "key": "207-76-100",
+      "status": "SPLIT",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 200
+    },
+    {
+      "key": "207-51-75",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 8
+    },
+    {
+      "key": "207-89-100",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": null
+    },
+    {
+      "key": "207-83-88",
+      "status": "PENDING",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": null
+    },
+    {
+      "key": "207-76-88",
+      "status": "SPLIT",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 200
+    },
+    {
+      "key": "207-76-82",
+      "status": "SUCCEEDED",
+      "error": null,
+      "expectedCount": null,
+      "retrievedCount": 82
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "collection": {
+    "runId": "cmutgz9y20000tyj5pu02b1gv",
+    "status": "COMPLETE",
+    "targetPoolId": null,
+    "requests": 2,
+    "failedRequests": 0,
+    "players": 148,
+    "variants": 1924,
+    "observations": 1924,
+    "expectedMetadataVariants": 1924,
+    "missingPrices": 148,
+    "unexpectedVariants": 0,
+    "duplicates": 0,
+    "metadataCoveragePercent": "100.00",
+    "metadataCoverageComplete": true,
+    "candidateEligibilityVerified": false,
+    "resolvedRankPacks": 0,
+    "rankGate": {
+      "verified": false,
+      "reason": "OFFICIAL_REFERENCE_WINDOW_UNKNOWN"
+    },
+    "observedWindow": {
+      "start": "2026-10-04T06:58:50.053Z",
+      "end": "2026-10-04T06:59:00.032Z"
+    },
+    "segments": [
+      {
+        "key": "864-100-200",
+        "status": "SUCCEEDED",
+        "error": null,
+        "expectedCount": 30,
+        "retrievedCount": 30,
+        "page": 1,
+        "query": {},
+        "attempts": 0
+      },
+      {
+        "key": "867-100-200",
+        "status": "SUCCEEDED",
+        "error": null,
+        "expectedCount": 118,
+        "retrievedCount": 118,
+        "page": 1,
+        "query": {},
+        "attempts": 0
+      }
+    ]
+  },
+  "executionId": "cmutgz9yt0003tyj56shntwhh",
+  "safety": {
+    "enabled": true,
+    "circuit": "CLOSED",
+    "circuitUntil": null,
+    "circuitReason": null,
+    "active": false,
+    "counts": {
+      "minute": 3,
+      "hour": 3,
+      "day": 3,
+      "run": 3
+    },
+    "remaining": {
+      "minute": 3,
+      "hour": 57,
+      "day": 117,
+      "run": 17
+    }
+  },
+  "metrics": {
+    "executionId": "cmutgz9yt0003tyj56shntwhh",
+    "runId": "cmutgz9y20000tyj5pu02b1gv",
+    "reason": "INCREMENTAL_REFRESH",
+    "startedAt": "2026-10-04T06:58:39.030Z",
+    "finishedAt": "2026-10-04T06:59:02.187Z",
+    "stopReason": null,
+    "requests": 3,
+    "priceRequests": 2,
+    "policyRequests": 1,
+    "players": 148,
+    "variants": 1924,
+    "variantsChecked": 1924,
+    "newPrices": 1924,
+    "changed": 0,
+    "unchanged": 0,
+    "missing": 0,
+    "freshened": 0,
+    "playersPerRequest": 74,
+    "variantsPerRequest": 962,
+    "newPricesPerRequest": 962,
+    "changedPricesPerRequest": 0,
+    "unchangedPricesPerRequest": 0,
+    "playersPerHttp": 49.333333333333336,
+    "variantsPerHttp": 641.3333333333334,
+    "changedPerHttp": 0,
+    "freshnessGainPerHttp": 0
+  }
+}
