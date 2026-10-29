@@ -66,3 +66,4 @@ button:disabled { opacity:.5; cursor:not-allowed; }.charge-main,.inventory-main 
 
 .players-main h1 { font-size:36px; font-weight:700; line-height:1.25; letter-spacing:-1px; }
 @media(max-width:600px) { .players-main h1 {font-size:28px;} }
+.lang-switch { margin-left:auto; border:1px solid var(--border); border-radius:4px; padding:6px 12px; font-size:12px; font-weight:600; color:var(--muted); }.lang-switch:hover { border-color:var(--accent); color:var(--accent); }
